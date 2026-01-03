@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+smollm2-env/
+.venv/
+venv/
+
+# Model weights / checkpoints
+smollm2_135m_instruct/
+checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
