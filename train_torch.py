@@ -15,7 +15,7 @@ from safetensors.torch import load_file
 
 
 # ------------------------------------------------
-# Logging setup
+# Logging
 # ------------------------------------------------
 def setup_logging():
     os.makedirs("logs", exist_ok=True)
@@ -31,7 +31,7 @@ def setup_logging():
 
 
 # ------------------------------------------------
-# Checkpoint helpers
+# Checkpoints
 # ------------------------------------------------
 def save_checkpoint(path, model, optimizer, scheduler, step, best_loss):
     torch.save(
@@ -55,7 +55,7 @@ def load_checkpoint(path, model, optimizer, scheduler):
 
 
 # ------------------------------------------------
-# Load pretrained weights
+# Pretrained weights
 # ------------------------------------------------
 def load_pretrained(model, model_dir):
     path = os.path.join(model_dir, "model.safetensors")
@@ -64,7 +64,7 @@ def load_pretrained(model, model_dir):
 
 
 # ------------------------------------------------
-# Text generation (monitoring only)
+# Generation (monitoring only)
 # ------------------------------------------------
 @torch.no_grad()
 def generate_sample(model, tokenizer, device, prompt, max_new_tokens=80):
@@ -84,7 +84,7 @@ def generate_sample(model, tokenizer, device, prompt, max_new_tokens=80):
 
 
 # ------------------------------------------------
-# Main training
+# Main
 # ------------------------------------------------
 def main():
     setup_logging()
@@ -163,7 +163,7 @@ def main():
     )
 
     # -------------------------
-    # Checkpoints
+    # Checkpoint paths
     # -------------------------
     os.makedirs("checkpoints", exist_ok=True)
     latest_ckpt = "checkpoints/latest.pt"
@@ -173,7 +173,7 @@ def main():
     best_loss = float("inf")
 
     if os.path.exists(latest_ckpt):
-        logging.info(f"Resuming from checkpoint: {latest_ckpt}")
+        logging.info(f"Resuming from {latest_ckpt}")
         step, best_loss = load_checkpoint(
             latest_ckpt, model, optimizer, scheduler
         )
@@ -225,7 +225,7 @@ def main():
             logging.info(text)
             logging.info("=== End sample ===")
 
-        if step % ckpt_interval == 0:
+        if step > 0 and step % ckpt_interval == 0:
             save_checkpoint(
                 latest_ckpt,
                 model,
@@ -236,7 +236,7 @@ def main():
             )
             logging.info(f"Saved latest checkpoint at step {step}")
 
-        if loss_val < best_loss:
+        if step > 0 and loss_val < best_loss:
             best_loss = loss_val
             save_checkpoint(
                 best_ckpt,
