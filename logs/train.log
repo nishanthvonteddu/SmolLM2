@@ -1,0 +1,996 @@
+2026-01-04 05:34:14 | INFO | Setup complete.
+2026-01-04 05:34:14 | INFO | Device: cuda
+2026-01-04 05:34:14 | INFO | Batch size: 2
+2026-01-04 05:34:14 | INFO | Seq len: 512
+2026-01-04 05:34:17 | INFO | New best model saved (loss=2.4171)
+2026-01-04 05:34:19 | INFO | New best model saved (loss=2.2537)
+2026-01-04 05:34:22 | INFO | New best model saved (loss=2.2313)
+2026-01-04 05:34:24 | INFO | New best model saved (loss=2.1444)
+2026-01-04 05:34:26 | INFO | New best model saved (loss=2.1079)
+2026-01-04 05:34:26 | INFO | step=0010 loss=2.1312 lr=1.50e-04 time=12.2s
+2026-01-04 05:34:29 | INFO | New best model saved (loss=2.0327)
+2026-01-04 05:34:31 | INFO | New best model saved (loss=1.8122)
+2026-01-04 05:34:32 | INFO | step=0020 loss=1.9847 lr=3.00e-04 time=17.8s
+2026-01-04 05:34:34 | INFO | New best model saved (loss=1.7314)
+2026-01-04 05:34:35 | INFO | step=0030 loss=1.8089 lr=3.00e-04 time=21.3s
+2026-01-04 05:34:38 | INFO | New best model saved (loss=1.7180)
+2026-01-04 05:34:39 | INFO | step=0040 loss=1.9125 lr=3.00e-04 time=24.9s
+2026-01-04 05:34:41 | INFO | New best model saved (loss=1.6746)
+2026-01-04 05:34:44 | INFO | New best model saved (loss=1.5970)
+2026-01-04 05:34:44 | INFO | step=0050 loss=1.7923 lr=3.00e-04 time=30.4s
+2026-01-04 05:34:44 | INFO | === Generation sample ===
+2026-01-04 05:34:47 | INFO | Summary: A girl and her dog went on an adventure. She was very brave and had a lot of fun. She was very happy.Features: Dialogue, BadEndingSummary: Sara and her dog, Max, fight over a toy car, but their dog, Max, helps them to share the car and they become friends.Story: Sara and her dog, Max, were playing with a toy car. It was a red and blue
+2026-01-04 05:34:47 | INFO | === End sample ===
+2026-01-04 05:34:50 | INFO | New best model saved (loss=1.4895)
+2026-01-04 05:34:51 | INFO | step=0060 loss=1.6831 lr=3.00e-04 time=36.6s
+2026-01-04 05:34:52 | INFO | step=0070 loss=1.6504 lr=3.00e-04 time=38.1s
+2026-01-04 05:34:54 | INFO | step=0080 loss=1.7496 lr=3.00e-04 time=39.7s
+2026-01-04 05:34:55 | INFO | step=0090 loss=1.7854 lr=3.00e-04 time=41.2s
+2026-01-04 05:34:57 | INFO | step=0100 loss=1.8311 lr=3.00e-04 time=42.7s
+2026-01-04 05:34:57 | INFO | === Generation sample ===
+2026-01-04 05:34:59 | INFO | Summary: A girl and her dog went on an adventure. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy. She was very happy.
+2026-01-04 05:34:59 | INFO | === End sample ===
+2026-01-04 05:35:01 | INFO | step=0110 loss=1.7287 lr=3.00e-04 time=46.7s
+2026-01-04 05:35:02 | INFO | step=0120 loss=1.6086 lr=3.00e-04 time=48.3s
+2026-01-04 05:35:04 | INFO | step=0130 loss=1.8205 lr=3.00e-04 time=49.8s
+2026-01-04 05:35:05 | INFO | step=0140 loss=1.4698 lr=3.00e-04 time=51.3s
+2026-01-04 05:35:07 | INFO | New best model saved (loss=1.4698)
+2026-01-04 05:35:09 | INFO | step=0150 loss=1.7441 lr=3.00e-04 time=54.8s
+2026-01-04 05:35:09 | INFO | === Generation sample ===
+2026-01-04 05:35:11 | INFO | Summary: A girl and her dog went on an adventure. They saw a big, red ball. They wanted to play with it. They ran to the ball and started to play. They had lots of fun.Summary: A girl and her dog went on an adventure to play with a big red ball. They ran to the ball and started to play. They had lots of fun and had a lot of fun.Summary: A little girl named Sue
+2026-01-04 05:35:11 | INFO | === End sample ===
+2026-01-04 05:35:13 | INFO | step=0160 loss=1.7701 lr=3.00e-04 time=58.8s
+2026-01-04 05:35:14 | INFO | step=0170 loss=1.6611 lr=3.00e-04 time=60.3s
+2026-01-04 05:35:16 | INFO | step=0180 loss=1.8238 lr=2.99e-04 time=61.8s
+2026-01-04 05:35:17 | INFO | step=0190 loss=2.1944 lr=2.99e-04 time=63.3s
+2026-01-04 05:35:19 | INFO | step=0200 loss=2.0195 lr=2.99e-04 time=64.9s
+2026-01-04 05:35:19 | INFO | === Generation sample ===
+2026-01-04 05:35:21 | INFO | Summary: A girl and her dog went on an adventure. They saw a big rock and decided to explore it. They found a special rock and decided to make a new friend.Words: explore, engine, bigFeatures: Dialogue, MoralValueStory: Once upon a time there was a big engine. It was big and big and had a big engine. One day, the engine was exploring a big field. It was so big and it was
+2026-01-04 05:35:21 | INFO | === End sample ===
+2026-01-04 05:35:23 | INFO | step=0210 loss=2.0528 lr=2.99e-04 time=68.9s
+2026-01-04 05:35:24 | INFO | step=0220 loss=1.9599 lr=2.99e-04 time=70.5s
+2026-01-04 05:35:26 | INFO | step=0230 loss=2.1406 lr=2.99e-04 time=72.0s
+2026-01-04 05:35:27 | INFO | step=0240 loss=2.0852 lr=2.99e-04 time=73.5s
+2026-01-04 05:35:29 | INFO | step=0250 loss=1.8900 lr=2.99e-04 time=75.1s
+2026-01-04 05:35:29 | INFO | === Generation sample ===
+2026-01-04 05:35:32 | INFO | Summary: A girl and her dog went on an adventure. They found a big, scary monster and a special toy, but the girl was scared and ran away.Words: listen, time, loudFeatures: DialogueStory: Once upon a time, there was a little girl named Sarah. She was three years old and loved to listen.One day, Sarah was playing in her room when she heard a loud noise coming from the kitchen. She looked
+2026-01-04 05:35:32 | INFO | === End sample ===
+2026-01-04 05:35:33 | INFO | step=0260 loss=1.7639 lr=2.99e-04 time=79.1s
+2026-01-04 05:35:35 | INFO | step=0270 loss=1.6821 lr=2.99e-04 time=80.6s
+2026-01-04 05:35:36 | INFO | step=0280 loss=1.4785 lr=2.99e-04 time=82.2s
+2026-01-04 05:35:38 | INFO | step=0290 loss=1.7902 lr=2.98e-04 time=83.7s
+2026-01-04 05:35:39 | INFO | step=0300 loss=1.6174 lr=2.98e-04 time=85.2s
+2026-01-04 05:35:39 | INFO | === Generation sample ===
+2026-01-04 05:35:42 | INFO | Summary: A girl and her dog went on an adventure. They found a big, red ball and played with it all day long.Story: Once upon a time, there was a girl and her dog. They were going on an adventure. They saw a big red ball. They wanted to play with it. They went to the park and found a ball. They played with the ball all day long. They laughed and had fun. They were very happy
+2026-01-04 05:35:42 | INFO | === End sample ===
+2026-01-04 05:35:43 | INFO | step=0310 loss=1.6251 lr=2.98e-04 time=89.2s
+2026-01-04 05:35:45 | INFO | step=0320 loss=1.4745 lr=2.98e-04 time=90.8s
+2026-01-04 05:35:47 | INFO | New best model saved (loss=1.4098)
+2026-01-04 05:35:48 | INFO | step=0330 loss=1.5470 lr=2.98e-04 time=94.3s
+2026-01-04 05:35:50 | INFO | step=0340 loss=1.6208 lr=2.98e-04 time=95.8s
+2026-01-04 05:35:51 | INFO | step=0350 loss=1.7765 lr=2.98e-04 time=97.3s
+2026-01-04 05:35:51 | INFO | === Generation sample ===
+2026-01-04 05:35:54 | INFO | Summary: A girl and her dog went on an adventure. They found a big, scary dog in the woods. The dog was very friendly and they all played together. The girl and dog became good friends and played together every day.Features: TwistWords: raise, octopus, incredibleStory: Once upon a time, there was a big octopus. The octopus was very incredible. It could raise its arms up and down. The octopus was very happy.
+2026-01-04 05:35:54 | INFO | === End sample ===
+2026-01-04 05:35:55 | INFO | step=0360 loss=1.5532 lr=2.98e-04 time=101.3s
+2026-01-04 05:35:57 | INFO | step=0370 loss=1.5049 lr=2.97e-04 time=102.8s
+2026-01-04 05:35:58 | INFO | step=0380 loss=1.6548 lr=2.97e-04 time=104.4s
+2026-01-04 05:36:00 | INFO | step=0390 loss=1.5527 lr=2.97e-04 time=105.9s
+2026-01-04 05:36:02 | INFO | New best model saved (loss=1.3995)
+2026-01-04 05:36:03 | INFO | step=0400 loss=2.0744 lr=2.97e-04 time=109.4s
+2026-01-04 05:36:03 | INFO | === Generation sample ===
+2026-01-04 05:36:06 | INFO | Summary: A girl and her dog went on an adventure. They found a big box and decided to open it. They were so excited to see what was inside.Story: Once upon a time, there was a girl and her dog. They were walking in the forest when they saw a big box. They opened it and found a big, shiny box. They were so excited to see what was inside. They carefully opened the box and found a big,
+2026-01-04 05:36:06 | INFO | === End sample ===
+2026-01-04 05:36:07 | INFO | step=0410 loss=2.1101 lr=2.97e-04 time=113.4s
+2026-01-04 05:36:09 | INFO | step=0420 loss=2.1760 lr=2.97e-04 time=115.0s
+2026-01-04 05:36:10 | INFO | step=0430 loss=2.0070 lr=2.97e-04 time=116.5s
+2026-01-04 05:36:12 | INFO | step=0440 loss=2.0851 lr=2.96e-04 time=118.1s
+2026-01-04 05:36:14 | INFO | step=0450 loss=1.9480 lr=2.96e-04 time=119.6s
+2026-01-04 05:36:14 | INFO | === Generation sample ===
+2026-01-04 05:36:16 | INFO | Summary: A girl and her dog went on an adventure. The girl was very excited and asked her dog to help her find her way home. The dog was very excited and agreed.The girl and her dog went on an adventure. They were very excited and had a great time. The girl and her dog were very happy and they had a great day.Summary: A girl and her dog go on an adventure and have a great time together.Features
+2026-01-04 05:36:16 | INFO | === End sample ===
+2026-01-04 05:36:18 | INFO | step=0460 loss=1.9284 lr=2.96e-04 time=123.6s
+2026-01-04 05:36:19 | INFO | step=0470 loss=1.5429 lr=2.96e-04 time=125.2s
+2026-01-04 05:36:21 | INFO | step=0480 loss=1.8190 lr=2.96e-04 time=126.7s
+2026-01-04 05:36:22 | INFO | step=0490 loss=1.5027 lr=2.95e-04 time=128.2s
+2026-01-04 05:36:24 | INFO | step=0500 loss=2.1255 lr=2.95e-04 time=129.8s
+2026-01-04 05:36:24 | INFO | === Generation sample ===
+2026-01-04 05:36:26 | INFO | Summary: A girl and her dog went on an adventure. They found a shiny rock and decided to take it home. They showed it to their mom and dad, who were very happy.Features: Dialogue, TwistWords: heal, rock, harmlessSummary: A little girl finds a rock and uses it to heal her broken arm, but it turns out to be a harmless rock that she didn't want to take.Story: Once upon a time,
+2026-01-04 05:36:26 | INFO | === End sample ===
+2026-01-04 05:36:28 | INFO | Saved latest checkpoint at step 500
+2026-01-04 05:36:29 | INFO | step=0510 loss=1.9355 lr=2.95e-04 time=135.5s
+2026-01-04 05:36:31 | INFO | step=0520 loss=1.9091 lr=2.95e-04 time=137.0s
+2026-01-04 05:36:33 | INFO | step=0530 loss=1.9404 lr=2.95e-04 time=138.6s
+2026-01-04 05:36:34 | INFO | step=0540 loss=1.9769 lr=2.94e-04 time=140.1s
+2026-01-04 05:36:36 | INFO | step=0550 loss=1.9469 lr=2.94e-04 time=141.7s
+2026-01-04 05:36:36 | INFO | === Generation sample ===
+2026-01-04 05:36:38 | INFO | Summary: A girl and her dog went on an adventure. They saw a big lake and a big river, and the girl was excited to explore. The dog was scared, but he was brave enough to follow her. They went on a journey and the girl was so happy to have seen the lake.Story: Once there was a girl and her dog. They were very excited to go on an adventure. The girl was very brave and she wanted to
+2026-01-04 05:36:38 | INFO | === End sample ===
+2026-01-04 05:36:40 | INFO | step=0560 loss=1.9543 lr=2.94e-04 time=145.6s
+2026-01-04 05:36:41 | INFO | step=0570 loss=2.0460 lr=2.94e-04 time=147.2s
+2026-01-04 05:36:43 | INFO | step=0580 loss=1.5591 lr=2.94e-04 time=148.7s
+2026-01-04 05:36:44 | INFO | step=0590 loss=1.4754 lr=2.93e-04 time=150.2s
+2026-01-04 05:36:48 | INFO | New best model saved (loss=1.3308)
+2026-01-04 05:36:48 | INFO | step=0600 loss=1.6303 lr=2.93e-04 time=153.7s
+2026-01-04 05:36:48 | INFO | === Generation sample ===
+2026-01-04 05:36:50 | INFO | Summary: A girl and her dog went on an adventure. They found a big tree with many branches, and they climbed up the tree to see what was inside. They found a big box with lots of toys inside. They played with the toys and had a fun time.Words: forgive, rock, helplessSummary: Lily and her mom go to the park and see a rock. Lily's mom forgives her for being helpless and they play together.
+2026-01-04 05:36:50 | INFO | === End sample ===
+2026-01-04 05:36:52 | INFO | step=0610 loss=1.6874 lr=2.93e-04 time=157.6s
+2026-01-04 05:36:53 | INFO | step=0620 loss=1.6548 lr=2.93e-04 time=159.2s
+2026-01-04 05:36:55 | INFO | step=0630 loss=1.6576 lr=2.92e-04 time=160.7s
+2026-01-04 05:36:56 | INFO | step=0640 loss=1.6291 lr=2.92e-04 time=162.2s
+2026-01-04 05:36:58 | INFO | step=0650 loss=1.5170 lr=2.92e-04 time=163.8s
+2026-01-04 05:36:58 | INFO | === Generation sample ===
+2026-01-04 05:37:00 | INFO | Summary: A girl and her dog went on an adventure. They found a big tree with a big hole in it and decided to climb it. They climbed the hole and found a big, yummy cake inside. They all enjoyed the cake together and had a lot of fun.Summary: Lily helps her mom make a cake with a big spoon and a big spoon, and they enjoy it together.Features: Dialogue, ConflictStory: Once upon a time,
+2026-01-04 05:37:00 | INFO | === End sample ===
+2026-01-04 05:37:02 | INFO | step=0660 loss=1.9591 lr=2.92e-04 time=167.7s
+2026-01-04 05:37:05 | INFO | New best model saved (loss=1.1801)
+2026-01-04 05:37:05 | INFO | step=0670 loss=1.9131 lr=2.91e-04 time=171.2s
+2026-01-04 05:37:07 | INFO | step=0680 loss=1.7984 lr=2.91e-04 time=172.8s
+2026-01-04 05:37:08 | INFO | step=0690 loss=1.9384 lr=2.91e-04 time=174.3s
+2026-01-04 05:37:10 | INFO | step=0700 loss=1.6952 lr=2.91e-04 time=175.8s
+2026-01-04 05:37:10 | INFO | === Generation sample ===
+2026-01-04 05:37:12 | INFO | Summary: A girl and her dog went on an adventure. The girl saw a big tree with a hole in it. She wanted to see what was inside. She ran to the hole and ran to the hole. She was scared and sad. She did not see the hole. She did not see the dog. She did not see the hole. She did not see the hole. She did not see the dog. She did not see the hole. She
+2026-01-04 05:37:12 | INFO | === End sample ===
+2026-01-04 05:37:14 | INFO | step=0710 loss=1.7098 lr=2.90e-04 time=179.8s
+2026-01-04 05:37:15 | INFO | step=0720 loss=1.5449 lr=2.90e-04 time=181.3s
+2026-01-04 05:37:17 | INFO | step=0730 loss=1.5976 lr=2.90e-04 time=182.9s
+2026-01-04 05:37:18 | INFO | step=0740 loss=1.4130 lr=2.89e-04 time=184.4s
+2026-01-04 05:37:20 | INFO | step=0750 loss=1.5475 lr=2.89e-04 time=185.9s
+2026-01-04 05:37:20 | INFO | === Generation sample ===
+2026-01-04 05:37:22 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and her dog barked. The girl went to the rock and found a ball. She played with the ball and the girl was happy. The girl went back home and told her mom about the adventure.Words: snap, ice, humbleSummary: Lily's mom accidentally snapped her ice cream and she felt sad. Her mom took her to the doctor and they learned
+2026-01-04 05:37:22 | INFO | === End sample ===
+2026-01-04 05:37:24 | INFO | step=0760 loss=1.4458 lr=2.89e-04 time=189.8s
+2026-01-04 05:37:25 | INFO | step=0770 loss=1.5180 lr=2.89e-04 time=191.4s
+2026-01-04 05:37:27 | INFO | step=0780 loss=2.1650 lr=2.88e-04 time=192.9s
+2026-01-04 05:37:28 | INFO | step=0790 loss=2.1244 lr=2.88e-04 time=194.5s
+2026-01-04 05:37:30 | INFO | step=0800 loss=1.8961 lr=2.88e-04 time=196.0s
+2026-01-04 05:37:30 | INFO | === Generation sample ===
+2026-01-04 05:37:32 | INFO | Summary: A girl and her dog went on an adventure. The girl was walking in the park when she saw a big, scary dog. She ran over to the dog and said, "Help! I'm scared!"The dog barked and ran away. The girl was sad, but she knew she had to help. She ran back to the park and told her mom what happened. Her mom said, "Don't worry, we can help you find
+2026-01-04 05:37:32 | INFO | === End sample ===
+2026-01-04 05:37:34 | INFO | step=0810 loss=1.9958 lr=2.87e-04 time=200.0s
+2026-01-04 05:37:36 | INFO | step=0820 loss=1.9585 lr=2.87e-04 time=201.6s
+2026-01-04 05:37:37 | INFO | step=0830 loss=1.9925 lr=2.87e-04 time=203.1s
+2026-01-04 05:37:39 | INFO | step=0840 loss=2.1145 lr=2.86e-04 time=204.6s
+2026-01-04 05:37:40 | INFO | step=0850 loss=1.5286 lr=2.86e-04 time=206.2s
+2026-01-04 05:37:40 | INFO | === Generation sample ===
+2026-01-04 05:37:43 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and the dog ran to get it. They played together and had a great time.Words: spoil, man, worriedSummary: A little girl named Lily finds a man's toy car and they play together, but Lily's mom warns her to be careful.Story: Once upon a time, there was a little girl named Lily. She loved to play with her
+2026-01-04 05:37:43 | INFO | === End sample ===
+2026-01-04 05:37:44 | INFO | step=0860 loss=1.5114 lr=2.86e-04 time=210.2s
+2026-01-04 05:37:46 | INFO | step=0870 loss=1.5057 lr=2.85e-04 time=211.7s
+2026-01-04 05:37:47 | INFO | step=0880 loss=1.6311 lr=2.85e-04 time=213.2s
+2026-01-04 05:37:49 | INFO | step=0890 loss=1.6249 lr=2.85e-04 time=214.8s
+2026-01-04 05:37:50 | INFO | step=0900 loss=1.4784 lr=2.84e-04 time=216.3s
+2026-01-04 05:37:50 | INFO | === Generation sample ===
+2026-01-04 05:37:53 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box with a picture of a bird. The girl was very happy and said, "Look, dog! I found a bird!" The girl and her dog went home and played with the bird.Summary: A little boy named Tim finds a big, shiny box in his room and discovers a new friend named Tim who loves to play with the box.Features: TwistStory
+2026-01-04 05:37:53 | INFO | === End sample ===
+2026-01-04 05:37:54 | INFO | step=0910 loss=1.4674 lr=2.84e-04 time=220.3s
+2026-01-04 05:37:56 | INFO | step=0920 loss=1.4779 lr=2.84e-04 time=221.8s
+2026-01-04 05:37:57 | INFO | step=0930 loss=1.5562 lr=2.83e-04 time=223.3s
+2026-01-04 05:37:59 | INFO | step=0940 loss=1.5160 lr=2.83e-04 time=224.9s
+2026-01-04 05:38:00 | INFO | step=0950 loss=1.4132 lr=2.82e-04 time=226.4s
+2026-01-04 05:38:00 | INFO | === Generation sample ===
+2026-01-04 05:38:03 | INFO | Summary: A girl and her dog went on an adventure. They found a big, scary dog and chased it, but it ran away. They found a little girl and her toy car, and they played with it all day long.Words: ignore, ice, youngStory: Once upon a time, there was a young boy named Timmy. Timmy loved to play outside in the snow. One day, Timmy went for a walk in the snow and found
+2026-01-04 05:38:03 | INFO | === End sample ===
+2026-01-04 05:38:04 | INFO | step=0960 loss=1.5691 lr=2.82e-04 time=230.4s
+2026-01-04 05:38:06 | INFO | step=0970 loss=1.5719 lr=2.82e-04 time=231.9s
+2026-01-04 05:38:07 | INFO | step=0980 loss=1.7949 lr=2.81e-04 time=233.5s
+2026-01-04 05:38:09 | INFO | step=0990 loss=1.6437 lr=2.81e-04 time=235.0s
+2026-01-04 05:38:10 | INFO | step=1000 loss=1.4754 lr=2.81e-04 time=236.5s
+2026-01-04 05:38:10 | INFO | === Generation sample ===
+2026-01-04 05:38:13 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and started to dig it up. She found a shiny rock and showed it to the girl. The girl was so happy and said, "Wow, that's so shiny!"The girl was surprised and asked, "What's so shiny?" The girl said, "It's a very shiny rock." The girl was so happy and said, "Wow, that's so
+2026-01-04 05:38:13 | INFO | === End sample ===
+2026-01-04 05:38:15 | INFO | Saved latest checkpoint at step 1000
+2026-01-04 05:38:16 | INFO | step=1010 loss=1.5251 lr=2.80e-04 time=242.4s
+2026-01-04 05:38:18 | INFO | step=1020 loss=2.2139 lr=2.80e-04 time=244.0s
+2026-01-04 05:38:19 | INFO | step=1030 loss=2.0335 lr=2.79e-04 time=245.5s
+2026-01-04 05:38:21 | INFO | step=1040 loss=1.9528 lr=2.79e-04 time=247.0s
+2026-01-04 05:38:23 | INFO | step=1050 loss=2.0632 lr=2.79e-04 time=248.6s
+2026-01-04 05:38:23 | INFO | === Generation sample ===
+2026-01-04 05:38:25 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared of a big dog but her dog was friendly and scared her. She was scared and ran away, but her dog was friendly and scared her. The girl was so relieved and thanked her dog for being so kind.Story: Once upon a time there was a girl who was very scared. She was scared of a big dog. She was so scared that she started to run
+2026-01-04 05:38:25 | INFO | === End sample ===
+2026-01-04 05:38:27 | INFO | step=1060 loss=1.9882 lr=2.78e-04 time=252.6s
+2026-01-04 05:38:28 | INFO | step=1070 loss=2.0333 lr=2.78e-04 time=254.1s
+2026-01-04 05:38:30 | INFO | step=1080 loss=1.8453 lr=2.77e-04 time=255.6s
+2026-01-04 05:38:31 | INFO | step=1090 loss=2.0613 lr=2.77e-04 time=257.2s
+2026-01-04 05:38:33 | INFO | step=1100 loss=1.9462 lr=2.76e-04 time=258.7s
+2026-01-04 05:38:33 | INFO | === Generation sample ===
+2026-01-04 05:38:35 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny coin and the dog chased it, but the girl was too fast. The girl was sad and the dog was sad too. The girl decided to give the girl a big hug and the dog was happy again.Summary: A little girl named Lucy finds a big, shiny coin in the park and decides to keep it, feeling happy and content.Story: 
+2026-01-04 05:38:35 | INFO | === End sample ===
+2026-01-04 05:38:37 | INFO | step=1110 loss=2.0003 lr=2.76e-04 time=262.6s
+2026-01-04 05:38:38 | INFO | step=1120 loss=1.9932 lr=2.76e-04 time=264.1s
+2026-01-04 05:38:40 | INFO | step=1130 loss=2.0976 lr=2.75e-04 time=265.6s
+2026-01-04 05:38:41 | INFO | step=1140 loss=1.5356 lr=2.75e-04 time=267.2s
+2026-01-04 05:38:43 | INFO | step=1150 loss=1.7216 lr=2.74e-04 time=268.7s
+2026-01-04 05:38:43 | INFO | === Generation sample ===
+2026-01-04 05:38:45 | INFO | Summary: A girl and her dog went on an adventure. They found a big box of toys and played with them all day.Words: discover, ice, worriedFeatures: Dialogue, BadEnding, MoralValueSummary: A little girl named Lucy finds a big ice in the park and discovers it is a toy ice cream truck, which she shares with her friends and they all enjoy it together.Story: Once upon a time, there was a little
+2026-01-04 05:38:45 | INFO | === End sample ===
+2026-01-04 05:38:47 | INFO | step=1160 loss=1.4697 lr=2.74e-04 time=272.7s
+2026-01-04 05:38:48 | INFO | step=1170 loss=2.2545 lr=2.73e-04 time=274.2s
+2026-01-04 05:38:50 | INFO | step=1180 loss=1.8981 lr=2.73e-04 time=275.8s
+2026-01-04 05:38:51 | INFO | step=1190 loss=1.6306 lr=2.73e-04 time=277.3s
+2026-01-04 05:38:53 | INFO | step=1200 loss=1.4827 lr=2.72e-04 time=278.8s
+2026-01-04 05:38:53 | INFO | === Generation sample ===
+2026-01-04 05:38:55 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny ball and played with it all day. The dog chased the ball and the girl chased it away.Features: Dialogue, TwistSummary: A little girl named Lily finds a big, shiny ball in the park and plays with it all day. She has a friend named Ben who joins her and they play together every day.Words: join, ball, shinyStory
+2026-01-04 05:38:55 | INFO | === End sample ===
+2026-01-04 05:38:57 | INFO | step=1210 loss=1.5929 lr=2.72e-04 time=282.8s
+2026-01-04 05:38:58 | INFO | step=1220 loss=1.4457 lr=2.71e-04 time=284.3s
+2026-01-04 05:39:00 | INFO | step=1230 loss=1.6276 lr=2.71e-04 time=285.9s
+2026-01-04 05:39:01 | INFO | step=1240 loss=1.6614 lr=2.70e-04 time=287.4s
+2026-01-04 05:39:03 | INFO | step=1250 loss=1.7235 lr=2.70e-04 time=288.9s
+2026-01-04 05:39:03 | INFO | === Generation sample ===
+2026-01-04 05:39:05 | INFO | Summary: A girl and her dog went on an adventure. They found a big box of toys and played with them. They also found a box of toys that were broken. They decided to fix the toys and play with them. They learned that sometimes things can be broken, but they can still be fun. They also learned that sometimes things can be broken, but they can still be fun. They also learned that sometimes things can be broken, but they can
+2026-01-04 05:39:05 | INFO | === End sample ===
+2026-01-04 05:39:07 | INFO | step=1260 loss=1.6507 lr=2.69e-04 time=292.9s
+2026-01-04 05:39:08 | INFO | step=1270 loss=1.8427 lr=2.69e-04 time=294.5s
+2026-01-04 05:39:10 | INFO | step=1280 loss=1.8456 lr=2.68e-04 time=296.0s
+2026-01-04 05:39:11 | INFO | step=1290 loss=1.6595 lr=2.68e-04 time=297.5s
+2026-01-04 05:39:13 | INFO | step=1300 loss=1.5910 lr=2.67e-04 time=299.0s
+2026-01-04 05:39:13 | INFO | === Generation sample ===
+2026-01-04 05:39:15 | INFO | Summary: A girl and her dog went on an adventure. They met a big bird who asked them to help her find her lost toy. They worked together to find the toy and were rewarded with a hug and a kiss.Words: ask, wall, badStory: Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big wall on the ground. She wanted to
+2026-01-04 05:39:15 | INFO | === End sample ===
+2026-01-04 05:39:17 | INFO | step=1310 loss=2.1612 lr=2.67e-04 time=303.0s
+2026-01-04 05:39:18 | INFO | step=1320 loss=1.9015 lr=2.66e-04 time=304.5s
+2026-01-04 05:39:20 | INFO | step=1330 loss=2.2307 lr=2.66e-04 time=306.1s
+2026-01-04 05:39:22 | INFO | step=1340 loss=1.8840 lr=2.65e-04 time=307.6s
+2026-01-04 05:39:23 | INFO | step=1350 loss=2.0711 lr=2.65e-04 time=309.1s
+2026-01-04 05:39:23 | INFO | === Generation sample ===
+2026-01-04 05:39:25 | INFO | Summary: A girl and her dog went on an adventure. The girl was excited to find a big, scary dog, but the dog was too scared to bark. The girl was sad and scared, but the dog was still happy to be there.Words: decide, flower, oldSummary: A little girl finds an old flower in the garden and decides to keep it, but it starts to rot. She decides to keep it and decides to keep it
+2026-01-04 05:39:25 | INFO | === End sample ===
+2026-01-04 05:39:27 | INFO | step=1360 loss=2.0241 lr=2.64e-04 time=313.1s
+2026-01-04 05:39:29 | INFO | step=1370 loss=2.1792 lr=2.64e-04 time=314.6s
+2026-01-04 05:39:30 | INFO | step=1380 loss=1.4948 lr=2.63e-04 time=316.1s
+2026-01-04 05:39:32 | INFO | step=1390 loss=1.4607 lr=2.63e-04 time=317.7s
+2026-01-04 05:39:33 | INFO | step=1400 loss=2.0857 lr=2.62e-04 time=319.2s
+2026-01-04 05:39:33 | INFO | === Generation sample ===
+2026-01-04 05:39:36 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, but it was too heavy for her to carry. She tried to carry it, but it was too heavy for her. The girl decided to ask her mom for help and they went back to the park.Features: Dialogue, BadEnding, ForeshadowingSummary: Lily and her mom go to the park, but Lily gets lost and
+2026-01-04 05:39:36 | INFO | === End sample ===
+2026-01-04 05:39:37 | INFO | step=1410 loss=1.9097 lr=2.62e-04 time=323.2s
+2026-01-04 05:39:39 | INFO | step=1420 loss=1.9364 lr=2.61e-04 time=324.7s
+2026-01-04 05:39:40 | INFO | step=1430 loss=2.3043 lr=2.61e-04 time=326.3s
+2026-01-04 05:39:42 | INFO | step=1440 loss=2.0298 lr=2.60e-04 time=328.0s
+2026-01-04 05:39:43 | INFO | step=1450 loss=1.8477 lr=2.60e-04 time=329.5s
+2026-01-04 05:39:43 | INFO | === Generation sample ===
+2026-01-04 05:39:46 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and decided to take it home. She was excited to show it to her mom and dad. She took the box to the house and showed it to her mom and dad. They were very proud of her.Words: worry, laundry, nervousFeatures: Dialogue, BadEndingSummary: A little girl is worried about her laundry and her mom helps her by doing
+2026-01-04 05:39:46 | INFO | === End sample ===
+2026-01-04 05:39:47 | INFO | step=1460 loss=2.0279 lr=2.59e-04 time=333.5s
+2026-01-04 05:39:49 | INFO | step=1470 loss=1.9838 lr=2.59e-04 time=335.0s
+2026-01-04 05:39:51 | INFO | step=1480 loss=2.0041 lr=2.58e-04 time=336.6s
+2026-01-04 05:39:52 | INFO | step=1490 loss=2.0793 lr=2.57e-04 time=338.1s
+2026-01-04 05:39:54 | INFO | step=1500 loss=1.9389 lr=2.57e-04 time=339.6s
+2026-01-04 05:39:54 | INFO | === Generation sample ===
+2026-01-04 05:39:56 | INFO | Summary: A girl and her dog went on an adventure. They went to a big park and had fun playing with the dog. They went back home feeling happy and proud of their adventure.Summary: A little girl goes on a search for a toy and eventually finds it in a box. She plays with it and feels happy and proud.Story: Once upon a time, there was a little girl. She was three years old and she wanted to
+2026-01-04 05:39:56 | INFO | === End sample ===
+2026-01-04 05:39:58 | INFO | Saved latest checkpoint at step 1500
+2026-01-04 05:40:00 | INFO | step=1510 loss=1.9312 lr=2.56e-04 time=345.6s
+2026-01-04 05:40:01 | INFO | step=1520 loss=1.8976 lr=2.56e-04 time=347.1s
+2026-01-04 05:40:03 | INFO | step=1530 loss=1.5258 lr=2.55e-04 time=348.7s
+2026-01-04 05:40:04 | INFO | step=1540 loss=2.2448 lr=2.55e-04 time=350.2s
+2026-01-04 05:40:06 | INFO | step=1550 loss=2.0424 lr=2.54e-04 time=351.7s
+2026-01-04 05:40:06 | INFO | === Generation sample ===
+2026-01-04 05:40:08 | INFO | Summary: A girl and her dog went on an adventure. The girl was so excited when she saw a big, scary dog in the distance. The dog barked and barked, and the girl was scared. The dog barked again and the girl was so scared that she ran away. The girl was never seen again.Features: DialogueWords: find, search, perfectSummary: A little girl searches for a perfect toy and finally finds it under
+2026-01-04 05:40:08 | INFO | === End sample ===
+2026-01-04 05:40:10 | INFO | step=1560 loss=1.9164 lr=2.54e-04 time=355.8s
+2026-01-04 05:40:11 | INFO | step=1570 loss=2.0389 lr=2.53e-04 time=357.3s
+2026-01-04 05:40:13 | INFO | step=1580 loss=2.1352 lr=2.52e-04 time=358.9s
+2026-01-04 05:40:14 | INFO | step=1590 loss=2.0949 lr=2.52e-04 time=360.4s
+2026-01-04 05:40:16 | INFO | step=1600 loss=2.1712 lr=2.51e-04 time=362.0s
+2026-01-04 05:40:16 | INFO | === Generation sample ===
+2026-01-04 05:40:18 | INFO | Summary: A girl and her dog went on an adventure. The girl was very excited and the dog was very brave. They went to a big forest and the girl and the dog had a fun time playing together.Features: DialogueWords: throw, power, strongStory: Once upon a time, there was a strong man named Jack. He was very strong and he loved to throw things. One day, Jack was throwing a ball and he was
+2026-01-04 05:40:18 | INFO | === End sample ===
+2026-01-04 05:40:20 | INFO | step=1610 loss=1.9524 lr=2.51e-04 time=366.0s
+2026-01-04 05:40:21 | INFO | step=1620 loss=2.0081 lr=2.50e-04 time=367.5s
+2026-01-04 05:40:23 | INFO | step=1630 loss=1.6811 lr=2.49e-04 time=369.0s
+2026-01-04 05:40:25 | INFO | step=1640 loss=1.6746 lr=2.49e-04 time=370.6s
+2026-01-04 05:40:26 | INFO | step=1650 loss=1.8134 lr=2.48e-04 time=372.1s
+2026-01-04 05:40:26 | INFO | === Generation sample ===
+2026-01-04 05:40:28 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box with a picture of a bird on it. She took the bird and flew away. The dog followed and found a bird's nest. They were very happy and excited. They flew and played in the nest. They had fun.Summary: Lily and Ben play with a big box of toys in the park, but their mom tells them to be careful and not touch
+2026-01-04 05:40:28 | INFO | === End sample ===
+2026-01-04 05:40:30 | INFO | step=1660 loss=1.5583 lr=2.48e-04 time=376.1s
+2026-01-04 05:40:32 | INFO | step=1670 loss=1.3866 lr=2.47e-04 time=377.6s
+2026-01-04 05:40:33 | INFO | step=1680 loss=1.5970 lr=2.46e-04 time=379.1s
+2026-01-04 05:40:35 | INFO | step=1690 loss=1.5269 lr=2.46e-04 time=380.6s
+2026-01-04 05:40:36 | INFO | step=1700 loss=1.7312 lr=2.45e-04 time=382.2s
+2026-01-04 05:40:36 | INFO | === Generation sample ===
+2026-01-04 05:40:39 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box in the park and asked her dog to open it. The dog opened the box and found a big toy car inside. The girl was so happy and thanked her dog for finding the toy.Summary: Lily and her dog go to the park to play, but Lily gets tired and her dog gets scared. Her mom comforts her and they go home to play.
+2026-01-04 05:40:39 | INFO | === End sample ===
+2026-01-04 05:40:40 | INFO | step=1710 loss=1.5937 lr=2.45e-04 time=386.1s
+2026-01-04 05:40:42 | INFO | step=1720 loss=1.4652 lr=2.44e-04 time=387.6s
+2026-01-04 05:40:43 | INFO | step=1730 loss=1.4208 lr=2.43e-04 time=389.2s
+2026-01-04 05:40:45 | INFO | step=1740 loss=1.4679 lr=2.43e-04 time=390.7s
+2026-01-04 05:40:46 | INFO | step=1750 loss=1.6039 lr=2.42e-04 time=392.2s
+2026-01-04 05:40:46 | INFO | === Generation sample ===
+2026-01-04 05:40:49 | INFO | Summary: A girl and her dog went on an adventure. They found a big box and decided to open it, but it was too heavy for them to carry. They found a big box and decided to open it, but it was too heavy for them to carry. They decided to find a new box instead. They found a big box and decided to open it. They found a big box and decided to open it. They found a big box and decided
+2026-01-04 05:40:49 | INFO | === End sample ===
+2026-01-04 05:40:50 | INFO | step=1760 loss=1.4222 lr=2.42e-04 time=396.2s
+2026-01-04 05:40:52 | INFO | step=1770 loss=1.8660 lr=2.41e-04 time=397.7s
+2026-01-04 05:40:53 | INFO | step=1780 loss=1.7769 lr=2.40e-04 time=399.3s
+2026-01-04 05:40:55 | INFO | step=1790 loss=1.6985 lr=2.40e-04 time=400.8s
+2026-01-04 05:40:56 | INFO | step=1800 loss=1.7271 lr=2.39e-04 time=402.3s
+2026-01-04 05:40:56 | INFO | === Generation sample ===
+2026-01-04 05:40:59 | INFO | Summary: A girl and her dog went on an adventure. They found a big box with a lock and a key, and they used the key to unlock the box. They found a box of toys inside, and they played with them. They learned that it was better to be careful and not open things that are not yours.Words: pretend, mine, hairyFeatures: Dialogue, ForeshadowingStory: Lily and Ben were playing with their
+2026-01-04 05:40:59 | INFO | === End sample ===
+2026-01-04 05:41:00 | INFO | step=1810 loss=1.5243 lr=2.38e-04 time=406.3s
+2026-01-04 05:41:02 | INFO | step=1820 loss=1.5518 lr=2.38e-04 time=407.8s
+2026-01-04 05:41:03 | INFO | step=1830 loss=1.4564 lr=2.37e-04 time=409.4s
+2026-01-04 05:41:05 | INFO | step=1840 loss=1.7153 lr=2.37e-04 time=410.9s
+2026-01-04 05:41:06 | INFO | step=1850 loss=1.7352 lr=2.36e-04 time=412.4s
+2026-01-04 05:41:06 | INFO | === Generation sample ===
+2026-01-04 05:41:09 | INFO | Summary: A girl and her dog went on an adventure. They found a big, scary dog and chased it away, but it was too fast and they couldn't catch it. They learned that sometimes things that seem scary can be just as fun as they are.Features: Dialogue, Conflict, MoralValueSummary: Lily and her dog Max go to the park to play, but Max gets too close to Lily and she gets hurt. Lily learns that it
+2026-01-04 05:41:09 | INFO | === End sample ===
+2026-01-04 05:41:10 | INFO | step=1860 loss=1.6659 lr=2.35e-04 time=416.4s
+2026-01-04 05:41:12 | INFO | step=1870 loss=1.5986 lr=2.35e-04 time=418.0s
+2026-01-04 05:41:13 | INFO | step=1880 loss=1.8672 lr=2.34e-04 time=419.5s
+2026-01-04 05:41:15 | INFO | step=1890 loss=1.5446 lr=2.33e-04 time=421.0s
+2026-01-04 05:41:17 | INFO | step=1900 loss=1.6527 lr=2.33e-04 time=422.6s
+2026-01-04 05:41:17 | INFO | === Generation sample ===
+2026-01-04 05:41:19 | INFO | Summary: A girl and her dog went on an adventure. They saw a big hill with many flowers and birds. They saw a bird that looked like a bird, but it was not a bird. It was a big bird that looked like a bird, but it was not a bird. It was a big bird that looked like a bird, but it was not a bird. It was a big bird that looked like a bird, but it was not a
+2026-01-04 05:41:19 | INFO | === End sample ===
+2026-01-04 05:41:20 | INFO | step=1910 loss=1.4674 lr=2.32e-04 time=426.5s
+2026-01-04 05:41:22 | INFO | step=1920 loss=1.5145 lr=2.31e-04 time=428.0s
+2026-01-04 05:41:24 | INFO | step=1930 loss=1.5892 lr=2.31e-04 time=429.6s
+2026-01-04 05:41:25 | INFO | step=1940 loss=1.3989 lr=2.30e-04 time=431.1s
+2026-01-04 05:41:27 | INFO | step=1950 loss=1.4755 lr=2.29e-04 time=432.6s
+2026-01-04 05:41:27 | INFO | === Generation sample ===
+2026-01-04 05:41:29 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box with a picture of a bird on it and they went on an adventure to find it.Words: find, game, beautifulSummary: Lily and her mom play a game with her favorite toy car, but Lily's mom tells her to find it first. Lily finds it and they play with it all day.Features: DialogueStory: Once upon a time, there
+2026-01-04 05:41:29 | INFO | === End sample ===
+2026-01-04 05:41:31 | INFO | step=1960 loss=1.9963 lr=2.29e-04 time=436.6s
+2026-01-04 05:41:32 | INFO | step=1970 loss=1.7383 lr=2.28e-04 time=438.1s
+2026-01-04 05:41:34 | INFO | step=1980 loss=1.8309 lr=2.27e-04 time=439.7s
+2026-01-04 05:41:35 | INFO | step=1990 loss=1.4868 lr=2.27e-04 time=441.2s
+2026-01-04 05:41:37 | INFO | step=2000 loss=1.5573 lr=2.26e-04 time=442.7s
+2026-01-04 05:41:37 | INFO | === Generation sample ===
+2026-01-04 05:41:39 | INFO | Summary: A girl and her dog went on an adventure. They saw a big hill with a lot of trees and flowers. They wanted to climb the hill and see what was on the other side. They got scared when they saw a big dog that was mean and hungry. They ran away and hid behind a tree. They learned to be careful and not to go on the hill again.Summary: Lily and Ben play with their toy cars and cars,
+2026-01-04 05:41:39 | INFO | === End sample ===
+2026-01-04 05:41:41 | INFO | Saved latest checkpoint at step 2000
+2026-01-04 05:41:43 | INFO | step=2010 loss=1.4618 lr=2.25e-04 time=448.7s
+2026-01-04 05:41:44 | INFO | step=2020 loss=1.3847 lr=2.25e-04 time=450.2s
+2026-01-04 05:41:46 | INFO | step=2030 loss=1.5059 lr=2.24e-04 time=451.8s
+2026-01-04 05:41:47 | INFO | step=2040 loss=1.5432 lr=2.23e-04 time=453.3s
+2026-01-04 05:41:49 | INFO | step=2050 loss=1.6022 lr=2.22e-04 time=454.8s
+2026-01-04 05:41:49 | INFO | === Generation sample ===
+2026-01-04 05:41:51 | INFO | Summary: A girl and her dog went on an adventure. The girl was a princess who had a big hat and a shiny dress. She was very happy and wore her hat and her shiny dress. The girl and her dog went on an adventure to find a big box with a picture of a princess on it. They found a big box with a picture of a princess on it. The girl and her dog were very happy and wore their hats and their shiny
+2026-01-04 05:41:51 | INFO | === End sample ===
+2026-01-04 05:41:53 | INFO | step=2060 loss=2.2122 lr=2.22e-04 time=458.8s
+2026-01-04 05:41:54 | INFO | step=2070 loss=2.3235 lr=2.21e-04 time=460.4s
+2026-01-04 05:41:56 | INFO | step=2080 loss=2.0958 lr=2.20e-04 time=461.9s
+2026-01-04 05:41:57 | INFO | step=2090 loss=2.3773 lr=2.20e-04 time=463.4s
+2026-01-04 05:41:59 | INFO | step=2100 loss=1.8709 lr=2.19e-04 time=465.0s
+2026-01-04 05:41:59 | INFO | === Generation sample ===
+2026-01-04 05:42:01 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared but she was brave and brave. She was brave and brave.Words: join, plane, strongFeatures: DialogueStory: Once upon a time, there was a strong plane. It was flying in the sky. The plane was joined by a little boy. The boy was very brave. He wanted to join the plane.The little boy said, "Let's join
+2026-01-04 05:42:01 | INFO | === End sample ===
+2026-01-04 05:42:03 | INFO | step=2110 loss=2.0840 lr=2.18e-04 time=469.0s
+2026-01-04 05:42:04 | INFO | step=2120 loss=1.9646 lr=2.18e-04 time=470.5s
+2026-01-04 05:42:06 | INFO | step=2130 loss=1.5228 lr=2.17e-04 time=472.0s
+2026-01-04 05:42:08 | INFO | step=2140 loss=1.4520 lr=2.16e-04 time=473.6s
+2026-01-04 05:42:09 | INFO | step=2150 loss=1.3506 lr=2.15e-04 time=475.1s
+2026-01-04 05:42:09 | INFO | === Generation sample ===
+2026-01-04 05:42:11 | INFO | Summary: A girl and her dog went on an adventure. The girl saw a big tree and asked her dog if she could go inside. The dog said yes and they went inside. The girl was happy and thanked her dog for helping her.Words: walk, sun, loudSummary: Lily goes for a walk with her mom and sees a big sun, but it disappears when she walks away. She continues to walk and sees a bird fly away.
+2026-01-04 05:42:11 | INFO | === End sample ===
+2026-01-04 05:42:13 | INFO | step=2160 loss=1.4524 lr=2.15e-04 time=479.0s
+2026-01-04 05:42:14 | INFO | step=2170 loss=1.4925 lr=2.14e-04 time=480.5s
+2026-01-04 05:42:16 | INFO | step=2180 loss=1.5328 lr=2.13e-04 time=482.0s
+2026-01-04 05:42:17 | INFO | step=2190 loss=1.6157 lr=2.13e-04 time=483.5s
+2026-01-04 05:42:19 | INFO | step=2200 loss=1.4302 lr=2.12e-04 time=485.1s
+2026-01-04 05:42:19 | INFO | === Generation sample ===
+2026-01-04 05:42:21 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box with a picture of a dog on it. The dog was sad and wanted to go home. The girl and her dog played together and had fun. The girl was happy that they had a good adventure.Words: ask, heart, longSummary: A long heart helps a sad dog find its way home and they become best friends.Story: Once upon a time
+2026-01-04 05:42:21 | INFO | === End sample ===
+2026-01-04 05:42:23 | INFO | step=2210 loss=1.3823 lr=2.11e-04 time=489.0s
+2026-01-04 05:42:25 | INFO | step=2220 loss=1.3425 lr=2.10e-04 time=490.6s
+2026-01-04 05:42:26 | INFO | step=2230 loss=1.3530 lr=2.10e-04 time=492.1s
+2026-01-04 05:42:28 | INFO | step=2240 loss=1.7054 lr=2.09e-04 time=493.6s
+2026-01-04 05:42:29 | INFO | step=2250 loss=1.6858 lr=2.08e-04 time=495.1s
+2026-01-04 05:42:29 | INFO | === Generation sample ===
+2026-01-04 05:42:32 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree with many fruits and flowers. They wanted to eat them, but the tree was too high. They saw a man who had a big hat and a long beard. He was angry and mean. He said they were bad and mean. He said they were not nice and they were not nice. He said they were not nice and they were not nice. He said they were
+2026-01-04 05:42:32 | INFO | === End sample ===
+2026-01-04 05:42:33 | INFO | step=2260 loss=2.2201 lr=2.08e-04 time=499.1s
+2026-01-04 05:42:35 | INFO | step=2270 loss=1.9150 lr=2.07e-04 time=500.6s
+2026-01-04 05:42:36 | INFO | step=2280 loss=1.8092 lr=2.06e-04 time=502.2s
+2026-01-04 05:42:38 | INFO | step=2290 loss=1.7999 lr=2.05e-04 time=503.7s
+2026-01-04 05:42:39 | INFO | step=2300 loss=2.1368 lr=2.05e-04 time=505.3s
+2026-01-04 05:42:39 | INFO | === Generation sample ===
+2026-01-04 05:42:42 | INFO | Summary: A girl and her dog went on an adventure. The girl was excited to explore the forest and the dog was happy to help her.Story: Once upon a time, there was a girl and her dog. The girl was very excited to explore the forest. She put on her warm coat and went outside. The girl and her dog went on an adventure. They walked and walked until they reached a big tree. The girl said, "
+2026-01-04 05:42:42 | INFO | === End sample ===
+2026-01-04 05:42:43 | INFO | step=2310 loss=1.9951 lr=2.04e-04 time=509.1s
+2026-01-04 05:42:45 | INFO | step=2320 loss=1.9515 lr=2.03e-04 time=510.7s
+2026-01-04 05:42:46 | INFO | step=2330 loss=2.1794 lr=2.02e-04 time=512.2s
+2026-01-04 05:42:48 | INFO | step=2340 loss=1.9501 lr=2.02e-04 time=513.7s
+2026-01-04 05:42:49 | INFO | step=2350 loss=2.1030 lr=2.01e-04 time=515.3s
+2026-01-04 05:42:49 | INFO | === Generation sample ===
+2026-01-04 05:42:52 | INFO | Summary: A girl and her dog went on an adventure. The girl was very brave and brave, and the dog was very brave too. They had a lot of fun and the girl was very proud of herself.Story: Once upon a time, there was a girl and her dog. The girl was very brave and brave, and the dog was very brave too.One day, the girl and her dog went on an adventure. They went to a
+2026-01-04 05:42:52 | INFO | === End sample ===
+2026-01-04 05:42:53 | INFO | step=2360 loss=1.9495 lr=2.00e-04 time=519.2s
+2026-01-04 05:42:55 | INFO | step=2370 loss=1.9871 lr=1.99e-04 time=520.8s
+2026-01-04 05:42:56 | INFO | step=2380 loss=2.0872 lr=1.99e-04 time=522.5s
+2026-01-04 05:42:58 | INFO | step=2390 loss=1.6524 lr=1.98e-04 time=524.0s
+2026-01-04 05:43:00 | INFO | step=2400 loss=1.5176 lr=1.97e-04 time=525.6s
+2026-01-04 05:43:00 | INFO | === Generation sample ===
+2026-01-04 05:43:02 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, red rock and the dog helped her carry it. They had a fun time playing together.Story: Once upon a time, there was a girl and her dog. The girl wanted to go on an adventure, but the dog was too small. The girl asked the dog to help her carry the rock. The dog said yes and they started to carry the rock together
+2026-01-04 05:43:02 | INFO | === End sample ===
+2026-01-04 05:43:03 | INFO | step=2410 loss=1.5922 lr=1.97e-04 time=529.5s
+2026-01-04 05:43:05 | INFO | step=2420 loss=1.5027 lr=1.96e-04 time=531.1s
+2026-01-04 05:43:07 | INFO | step=2430 loss=1.3331 lr=1.95e-04 time=532.6s
+2026-01-04 05:43:08 | INFO | step=2440 loss=1.4473 lr=1.94e-04 time=534.1s
+2026-01-04 05:43:10 | INFO | step=2450 loss=1.6007 lr=1.93e-04 time=535.7s
+2026-01-04 05:43:10 | INFO | === Generation sample ===
+2026-01-04 05:43:12 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared but she was happy to see the dog. They played together and had a fun day.Story: Once upon a time, there was a girl and her dog. The girl was scared because she was worried about the dog. But the dog was friendly and they played together every day.One day, the girl and her dog went on an adventure. They went to a big forest
+2026-01-04 05:43:12 | INFO | === End sample ===
+2026-01-04 05:43:14 | INFO | step=2460 loss=1.6376 lr=1.93e-04 time=539.6s
+2026-01-04 05:43:15 | INFO | step=2470 loss=1.5094 lr=1.92e-04 time=541.1s
+2026-01-04 05:43:17 | INFO | step=2480 loss=1.5958 lr=1.91e-04 time=542.6s
+2026-01-04 05:43:18 | INFO | step=2490 loss=1.9623 lr=1.90e-04 time=544.2s
+2026-01-04 05:43:20 | INFO | step=2500 loss=1.6178 lr=1.90e-04 time=545.7s
+2026-01-04 05:43:20 | INFO | === Generation sample ===
+2026-01-04 05:43:22 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree with many fruits. The girl said, "Look, a fruit!" The dog said, "Yes, a fruit!" They ate the fruits and had fun. They were happy.Summary: Lily and Ben find a magic wand in the park and use it to make a new friend, a dog, and a cat, and they all become good friends.Words: vanish
+2026-01-04 05:43:22 | INFO | === End sample ===
+2026-01-04 05:43:24 | INFO | Saved latest checkpoint at step 2500
+2026-01-04 05:43:26 | INFO | step=2510 loss=1.7031 lr=1.89e-04 time=551.6s
+2026-01-04 05:43:27 | INFO | step=2520 loss=1.5557 lr=1.88e-04 time=553.1s
+2026-01-04 05:43:29 | INFO | step=2530 loss=1.4184 lr=1.87e-04 time=554.7s
+2026-01-04 05:43:30 | INFO | step=2540 loss=1.4819 lr=1.87e-04 time=556.2s
+2026-01-04 05:43:32 | INFO | step=2550 loss=1.4232 lr=1.86e-04 time=557.7s
+2026-01-04 05:43:32 | INFO | === Generation sample ===
+2026-01-04 05:43:34 | INFO | Summary: A girl and her dog went on an adventure. The girl was very excited and had a great time together.Story: Once upon a time, there was a girl who loved to go on adventures. One day, she went on a trip with her dog. They went to a big city and saw many things. The girl was very excited and had a great time together.After the trip, the girl and her dog went on a long walk.
+2026-01-04 05:43:34 | INFO | === End sample ===
+2026-01-04 05:43:36 | INFO | step=2560 loss=1.9593 lr=1.85e-04 time=561.8s
+2026-01-04 05:43:37 | INFO | step=2570 loss=2.0065 lr=1.84e-04 time=563.3s
+2026-01-04 05:43:39 | INFO | step=2580 loss=1.9305 lr=1.84e-04 time=564.8s
+2026-01-04 05:43:40 | INFO | step=2590 loss=1.9969 lr=1.83e-04 time=566.4s
+2026-01-04 05:43:42 | INFO | step=2600 loss=2.0013 lr=1.82e-04 time=567.9s
+2026-01-04 05:43:42 | INFO | === Generation sample ===
+2026-01-04 05:43:44 | INFO | Summary: A girl and her dog went on an adventure. The girl was excited to see the world, but the dog was scared of her. The girl was brave and they had a fun adventure together.Story: Once upon a time there was a girl and her dog. The girl was very excited to go on an adventure. She asked her dog to go with her. The dog was scared of her, but he was also very brave.The girl
+2026-01-04 05:43:44 | INFO | === End sample ===
+2026-01-04 05:43:46 | INFO | step=2610 loss=1.8955 lr=1.81e-04 time=571.9s
+2026-01-04 05:43:47 | INFO | step=2620 loss=1.7793 lr=1.81e-04 time=573.4s
+2026-01-04 05:43:49 | INFO | step=2630 loss=1.3942 lr=1.80e-04 time=574.9s
+2026-01-04 05:43:50 | INFO | step=2640 loss=1.5202 lr=1.79e-04 time=576.5s
+2026-01-04 05:43:52 | INFO | step=2650 loss=1.3747 lr=1.78e-04 time=578.0s
+2026-01-04 05:43:52 | INFO | === Generation sample ===
+2026-01-04 05:43:54 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and the dog found a big tree. They played together and had fun.Words: find, rock, bigStory: Once upon a time, there was a big rock. The rock was big and round. The girl and her dog went on an adventure. They went on a big adventure to find something big. They looked and looked, but they couldn't find anything
+2026-01-04 05:43:54 | INFO | === End sample ===
+2026-01-04 05:43:56 | INFO | step=2660 loss=1.5545 lr=1.77e-04 time=582.0s
+2026-01-04 05:43:57 | INFO | step=2670 loss=1.3760 lr=1.77e-04 time=583.5s
+2026-01-04 05:43:59 | INFO | step=2680 loss=1.6155 lr=1.76e-04 time=585.1s
+2026-01-04 05:44:01 | INFO | step=2690 loss=1.6703 lr=1.75e-04 time=586.6s
+2026-01-04 05:44:02 | INFO | step=2700 loss=1.8270 lr=1.74e-04 time=588.1s
+2026-01-04 05:44:02 | INFO | === Generation sample ===
+2026-01-04 05:44:04 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree with many fruits, but the girl said no because they were not hers. She took the fruits and gave them to the dog, who was happy and thanked her.Story: Once upon a time, there was a girl and a dog. They liked to play together. One day, they went on an adventure. They saw a big tree with many fruits. The fruits
+2026-01-04 05:44:04 | INFO | === End sample ===
+2026-01-04 05:44:06 | INFO | step=2710 loss=1.4533 lr=1.74e-04 time=592.0s
+2026-01-04 05:44:07 | INFO | step=2720 loss=1.3971 lr=1.73e-04 time=593.5s
+2026-01-04 05:44:09 | INFO | step=2730 loss=1.4286 lr=1.72e-04 time=595.1s
+2026-01-04 05:44:11 | INFO | step=2740 loss=1.4912 lr=1.71e-04 time=596.6s
+2026-01-04 05:44:12 | INFO | step=2750 loss=1.5045 lr=1.70e-04 time=598.1s
+2026-01-04 05:44:12 | INFO | === Generation sample ===
+2026-01-04 05:44:15 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and the dog found a small, red ball. They played together and had fun.Story: Once upon a time, there was a girl and her dog. The girl was very happy. She had a big, shiny rock. The dog was very happy too. They went on an adventure. The girl and the dog went on a big, long hill.
+2026-01-04 05:44:15 | INFO | === End sample ===
+2026-01-04 05:44:16 | INFO | step=2760 loss=1.2645 lr=1.70e-04 time=602.1s
+2026-01-04 05:44:18 | INFO | step=2770 loss=1.2423 lr=1.69e-04 time=603.7s
+2026-01-04 05:44:19 | INFO | step=2780 loss=1.3013 lr=1.68e-04 time=605.2s
+2026-01-04 05:44:21 | INFO | step=2790 loss=2.0142 lr=1.67e-04 time=606.7s
+2026-01-04 05:44:22 | INFO | step=2800 loss=2.0219 lr=1.67e-04 time=608.3s
+2026-01-04 05:44:22 | INFO | === Generation sample ===
+2026-01-04 05:44:25 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, which led to a secret room full of toys and treats.Story: Once upon a time, there was a girl and her dog. They were very happy. The girl and her dog went on an adventure. They went on a big adventure. When they got to the adventure, the girl and her dog opened the big box. Inside the
+2026-01-04 05:44:25 | INFO | === End sample ===
+2026-01-04 05:44:26 | INFO | step=2810 loss=1.9924 lr=1.66e-04 time=612.3s
+2026-01-04 05:44:28 | INFO | step=2820 loss=1.9200 lr=1.65e-04 time=613.8s
+2026-01-04 05:44:29 | INFO | step=2830 loss=1.9841 lr=1.64e-04 time=615.3s
+2026-01-04 05:44:31 | INFO | step=2840 loss=2.1404 lr=1.63e-04 time=616.9s
+2026-01-04 05:44:32 | INFO | step=2850 loss=2.0655 lr=1.63e-04 time=618.4s
+2026-01-04 05:44:32 | INFO | === Generation sample ===
+2026-01-04 05:44:35 | INFO | Summary: A girl and her dog went on an adventure. The girl was excited to see the world and the dog was excited to go on an adventure. They went to the park and the girl was so excited to see the world.Words: meet, brother, grayStory: Once upon a time there was a little girl who was very curious. She wanted to meet a brother who was also very curious. So one day she decided to go to
+2026-01-04 05:44:35 | INFO | === End sample ===
+2026-01-04 05:44:36 | INFO | step=2860 loss=1.4477 lr=1.62e-04 time=622.4s
+2026-01-04 05:44:38 | INFO | step=2870 loss=1.5869 lr=1.61e-04 time=624.0s
+2026-01-04 05:44:39 | INFO | step=2880 loss=1.2943 lr=1.60e-04 time=625.5s
+2026-01-04 05:44:41 | INFO | step=2890 loss=1.3978 lr=1.59e-04 time=627.0s
+2026-01-04 05:44:43 | INFO | step=2900 loss=1.4284 lr=1.59e-04 time=628.6s
+2026-01-04 05:44:43 | INFO | === Generation sample ===
+2026-01-04 05:44:45 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, but the dog got stuck inside. The girl and her dog went back to the box and opened it again, and the girl was happy to have her dog back.Story: Once upon a time, there was a girl and her dog. The girl was very happy because she had her dog. The girl and her dog went on an adventure. They
+2026-01-04 05:44:45 | INFO | === End sample ===
+2026-01-04 05:44:47 | INFO | step=2910 loss=1.8120 lr=1.58e-04 time=632.6s
+2026-01-04 05:44:48 | INFO | step=2920 loss=1.5663 lr=1.57e-04 time=634.1s
+2026-01-04 05:44:50 | INFO | step=2930 loss=1.5887 lr=1.56e-04 time=635.6s
+2026-01-04 05:44:51 | INFO | step=2940 loss=1.4675 lr=1.56e-04 time=637.2s
+2026-01-04 05:44:53 | INFO | step=2950 loss=1.6565 lr=1.55e-04 time=638.7s
+2026-01-04 05:44:53 | INFO | === Generation sample ===
+2026-01-04 05:44:55 | INFO | Summary: A girl and her dog went on an adventure. They found a big box with a bow on it. They opened the box and found a new toy. They played with the new toy and had fun.Story: One day, a girl and her dog went on an adventure. They saw a big box. The box had a bow on it. The bow was red and shiny. The girl and her dog liked to play with the bow.
+2026-01-04 05:44:55 | INFO | === End sample ===
+2026-01-04 05:44:57 | INFO | step=2960 loss=1.4418 lr=1.54e-04 time=642.6s
+2026-01-04 05:44:58 | INFO | step=2970 loss=1.5938 lr=1.53e-04 time=644.1s
+2026-01-04 05:45:00 | INFO | step=2980 loss=1.6804 lr=1.52e-04 time=645.7s
+2026-01-04 05:45:01 | INFO | step=2990 loss=1.6745 lr=1.52e-04 time=647.2s
+2026-01-04 05:45:03 | INFO | step=3000 loss=1.4327 lr=1.51e-04 time=648.7s
+2026-01-04 05:45:03 | INFO | === Generation sample ===
+2026-01-04 05:45:05 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big hill and a big tree, but the girl's dog got lost and couldn't find her. The girl's dog found the hill and the girl's dog found the tree, and they all became friends.Story: One day, a girl went on an adventure. She had a big dog and a big hill. The girl's dog was a big dog and the hill
+2026-01-04 05:45:05 | INFO | === End sample ===
+2026-01-04 05:45:07 | INFO | Saved latest checkpoint at step 3000
+2026-01-04 05:45:09 | INFO | step=3010 loss=1.3987 lr=1.50e-04 time=654.7s
+2026-01-04 05:45:10 | INFO | step=3020 loss=1.9805 lr=1.49e-04 time=656.2s
+2026-01-04 05:45:12 | INFO | step=3030 loss=2.0534 lr=1.48e-04 time=657.8s
+2026-01-04 05:45:13 | INFO | step=3040 loss=1.7018 lr=1.48e-04 time=659.3s
+2026-01-04 05:45:15 | INFO | step=3050 loss=1.9128 lr=1.47e-04 time=660.8s
+2026-01-04 05:45:15 | INFO | === Generation sample ===
+2026-01-04 05:45:17 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny treasure and her dog followed her. They found a treasure chest and a treasure map, and the girl and her dog went on an adventure together.Story: Once upon a time, there was a girl and her dog. The girl was very excited because she was going on an adventure. She said to her dog, "Let's go on an adventure!" 
+2026-01-04 05:45:17 | INFO | === End sample ===
+2026-01-04 05:45:19 | INFO | step=3060 loss=2.0522 lr=1.46e-04 time=664.9s
+2026-01-04 05:45:20 | INFO | step=3070 loss=1.8582 lr=1.45e-04 time=666.4s
+2026-01-04 05:45:22 | INFO | step=3080 loss=1.9328 lr=1.44e-04 time=668.0s
+2026-01-04 05:45:23 | INFO | step=3090 loss=1.5808 lr=1.44e-04 time=669.5s
+2026-01-04 05:45:25 | INFO | step=3100 loss=1.7574 lr=1.43e-04 time=671.0s
+2026-01-04 05:45:25 | INFO | === Generation sample ===
+2026-01-04 05:45:27 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, red balloon and her dog chased it, but the girl's dog got hurt and she had to go home. The girl's dog was happy to have a new friend and they played together all day.Summary: Lily and her mom went to the park and played on the swings, slide, and sandbox. Lily's mom was proud of her for being a good
+2026-01-04 05:45:27 | INFO | === End sample ===
+2026-01-04 05:45:29 | INFO | step=3110 loss=1.6346 lr=1.42e-04 time=674.9s
+2026-01-04 05:45:30 | INFO | step=3120 loss=1.5315 lr=1.41e-04 time=676.4s
+2026-01-04 05:45:32 | INFO | step=3130 loss=1.2559 lr=1.41e-04 time=678.0s
+2026-01-04 05:45:33 | INFO | step=3140 loss=1.5124 lr=1.40e-04 time=679.5s
+2026-01-04 05:45:35 | INFO | step=3150 loss=1.5043 lr=1.39e-04 time=681.0s
+2026-01-04 05:45:35 | INFO | === Generation sample ===
+2026-01-04 05:45:37 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big tree and her dog followed her, but the girl's dog got scared and ran away. The girl's dog was happy to have found her and they all became friends.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very happy too. They liked to play together and have fun.One day, the
+2026-01-04 05:45:37 | INFO | === End sample ===
+2026-01-04 05:45:39 | INFO | step=3160 loss=1.2510 lr=1.38e-04 time=685.0s
+2026-01-04 05:45:40 | INFO | step=3170 loss=1.3404 lr=1.37e-04 time=686.5s
+2026-01-04 05:45:42 | INFO | step=3180 loss=1.4812 lr=1.37e-04 time=688.0s
+2026-01-04 05:45:44 | INFO | step=3190 loss=1.2755 lr=1.36e-04 time=689.6s
+2026-01-04 05:45:45 | INFO | step=3200 loss=1.4896 lr=1.35e-04 time=691.1s
+2026-01-04 05:45:45 | INFO | === Generation sample ===
+2026-01-04 05:45:47 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box with a picture of a bird inside, and they played with it all day.Words: make,-friend, brightSummary: Tim and his friend Sam make a new friend, a little bird, and they have fun together.Story: Once upon a time, there was a bright sun in the sky. It was a sunny day and the sun was making a
+2026-01-04 05:45:47 | INFO | === End sample ===
+2026-01-04 05:45:49 | INFO | step=3210 loss=1.5238 lr=1.34e-04 time=695.0s
+2026-01-04 05:45:51 | INFO | step=3220 loss=1.7906 lr=1.33e-04 time=696.6s
+2026-01-04 05:45:52 | INFO | step=3230 loss=1.9065 lr=1.33e-04 time=698.1s
+2026-01-04 05:45:54 | INFO | step=3240 loss=1.9100 lr=1.32e-04 time=699.6s
+2026-01-04 05:45:55 | INFO | step=3250 loss=1.9950 lr=1.31e-04 time=701.2s
+2026-01-04 05:45:55 | INFO | === Generation sample ===
+2026-01-04 05:45:58 | INFO | Summary: A girl and her dog went on an adventure. The girl was excited to see the world, but the dog was scared. The girl was brave and the dog was happy.Story: Once upon a time, there was a girl and her dog. The girl was very excited to go on an adventure. She put on her shoes and her dog was so excited.The girl and her dog went on an adventure. They saw many things, like
+2026-01-04 05:45:58 | INFO | === End sample ===
+2026-01-04 05:45:59 | INFO | step=3260 loss=1.9656 lr=1.30e-04 time=705.1s
+2026-01-04 05:46:01 | INFO | step=3270 loss=1.9628 lr=1.30e-04 time=706.6s
+2026-01-04 05:46:02 | INFO | step=3280 loss=1.8424 lr=1.29e-04 time=708.2s
+2026-01-04 05:46:04 | INFO | step=3290 loss=1.7605 lr=1.28e-04 time=709.7s
+2026-01-04 05:46:05 | INFO | step=3300 loss=1.5647 lr=1.27e-04 time=711.2s
+2026-01-04 05:46:05 | INFO | === Generation sample ===
+2026-01-04 05:46:08 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big tree and her dog ran after her. They found a pond and a pond frog and a pond frog. They played and had fun. The girl and her dog were happy. They were friends.Features: Dialogue, BadEnding, ForeshadowingWords: meet, floor, scaryStory: Once upon a time, there was a little girl who loved to
+2026-01-04 05:46:08 | INFO | === End sample ===
+2026-01-04 05:46:09 | INFO | step=3310 loss=1.7135 lr=1.26e-04 time=715.2s
+2026-01-04 05:46:11 | INFO | step=3320 loss=1.6879 lr=1.26e-04 time=716.7s
+2026-01-04 05:46:12 | INFO | step=3330 loss=1.8781 lr=1.25e-04 time=718.2s
+2026-01-04 05:46:14 | INFO | step=3340 loss=2.1838 lr=1.24e-04 time=719.8s
+2026-01-04 05:46:15 | INFO | step=3350 loss=1.8300 lr=1.23e-04 time=721.3s
+2026-01-04 05:46:15 | INFO | === Generation sample ===
+2026-01-04 05:46:18 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared, but her dog helped her overcome her fear and they became best friends.Story: Once upon a time, there was a girl who loved to go on adventures. One day, she decided to go on an adventure with her dog. The girl was so excited to go on an adventure and she couldn't wait to start.The girl and her dog went on a long journey
+2026-01-04 05:46:18 | INFO | === End sample ===
+2026-01-04 05:46:19 | INFO | step=3360 loss=2.1020 lr=1.23e-04 time=725.2s
+2026-01-04 05:46:21 | INFO | step=3370 loss=2.1885 lr=1.22e-04 time=726.7s
+2026-01-04 05:46:22 | INFO | step=3380 loss=1.9520 lr=1.21e-04 time=728.3s
+2026-01-04 05:46:24 | INFO | step=3390 loss=2.0246 lr=1.20e-04 time=729.8s
+2026-01-04 05:46:25 | INFO | step=3400 loss=1.4385 lr=1.19e-04 time=731.5s
+2026-01-04 05:46:25 | INFO | === Generation sample ===
+2026-01-04 05:46:28 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and the dog barked happily. The girl and the dog became friends and played together every day.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. The girl and the dog went on an adventure. They went on a big, long walk. The girl and the dog
+2026-01-04 05:46:28 | INFO | === End sample ===
+2026-01-04 05:46:29 | INFO | step=3410 loss=1.6031 lr=1.19e-04 time=735.4s
+2026-01-04 05:46:31 | INFO | step=3420 loss=1.7284 lr=1.18e-04 time=736.9s
+2026-01-04 05:46:32 | INFO | step=3430 loss=1.8054 lr=1.17e-04 time=738.4s
+2026-01-04 05:46:34 | INFO | step=3440 loss=1.5112 lr=1.16e-04 time=740.0s
+2026-01-04 05:46:35 | INFO | step=3450 loss=1.6074 lr=1.16e-04 time=741.5s
+2026-01-04 05:46:35 | INFO | === Generation sample ===
+2026-01-04 05:46:38 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree and a bird, but the girl's dog got hurt and she had to go home. The girl's mom helped her and they went back to the park.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very friendly. They liked to play and run in the park.One day, they saw
+2026-01-04 05:46:38 | INFO | === End sample ===
+2026-01-04 05:46:39 | INFO | step=3460 loss=1.5002 lr=1.15e-04 time=745.4s
+2026-01-04 05:46:41 | INFO | step=3470 loss=1.4438 lr=1.14e-04 time=746.9s
+2026-01-04 05:46:42 | INFO | step=3480 loss=1.3321 lr=1.13e-04 time=748.4s
+2026-01-04 05:46:44 | INFO | step=3490 loss=1.4134 lr=1.13e-04 time=750.0s
+2026-01-04 05:46:45 | INFO | step=3500 loss=1.3042 lr=1.12e-04 time=751.5s
+2026-01-04 05:46:45 | INFO | === Generation sample ===
+2026-01-04 05:46:48 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree and a bird, but the girl got lost and couldn't find her way back home. The girl's mom found her and they all became friends.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very good. They liked to play together and go on adventures. One day, they went on an adventure
+2026-01-04 05:46:48 | INFO | === End sample ===
+2026-01-04 05:46:50 | INFO | Saved latest checkpoint at step 3500
+2026-01-04 05:46:51 | INFO | step=3510 loss=1.2198 lr=1.11e-04 time=757.3s
+2026-01-04 05:46:53 | INFO | step=3520 loss=1.3799 lr=1.10e-04 time=758.8s
+2026-01-04 05:46:54 | INFO | step=3530 loss=1.2925 lr=1.10e-04 time=760.4s
+2026-01-04 05:46:56 | INFO | step=3540 loss=1.4465 lr=1.09e-04 time=761.9s
+2026-01-04 05:46:57 | INFO | step=3550 loss=1.3769 lr=1.08e-04 time=763.4s
+2026-01-04 05:46:57 | INFO | === Generation sample ===
+2026-01-04 05:47:00 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree and a bird, but the girl got lost and couldn't find her way back home. The dog helped her find her way back home and they became best friends.Story: Once upon a time, there was a little girl named Lily. She had a dog named Max. They were best friends. One day, Lily and Max went on an adventure. They saw a big
+2026-01-04 05:47:00 | INFO | === End sample ===
+2026-01-04 05:47:01 | INFO | step=3560 loss=1.3989 lr=1.07e-04 time=767.4s
+2026-01-04 05:47:03 | INFO | step=3570 loss=1.4521 lr=1.07e-04 time=769.0s
+2026-01-04 05:47:04 | INFO | step=3580 loss=1.5343 lr=1.06e-04 time=770.5s
+2026-01-04 05:47:06 | INFO | step=3590 loss=1.5739 lr=1.05e-04 time=772.0s
+2026-01-04 05:47:08 | INFO | step=3600 loss=2.0913 lr=1.04e-04 time=773.6s
+2026-01-04 05:47:08 | INFO | === Generation sample ===
+2026-01-04 05:47:10 | INFO | Summary: A girl and her dog went on an adventure. They played hide and seek and had fun together.Story: Once upon a time, there was a girl and her dog. They were very happy. The girl and her dog went on an adventure. They went to the park and played hide and seek. The girl was very good at hiding. She was very good at finding her dog. They had so much fun together.Features: Dialogue,
+2026-01-04 05:47:10 | INFO | === End sample ===
+2026-01-04 05:47:11 | INFO | step=3610 loss=2.3247 lr=1.03e-04 time=777.5s
+2026-01-04 05:47:13 | INFO | step=3620 loss=2.0834 lr=1.03e-04 time=779.1s
+2026-01-04 05:47:15 | INFO | step=3630 loss=1.8049 lr=1.02e-04 time=780.6s
+2026-01-04 05:47:16 | INFO | step=3640 loss=1.8173 lr=1.01e-04 time=782.2s
+2026-01-04 05:47:18 | INFO | step=3650 loss=1.8220 lr=1.01e-04 time=783.7s
+2026-01-04 05:47:18 | INFO | === Generation sample ===
+2026-01-04 05:47:20 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They had a lot of fun and the girl was happy.Story: Once upon a time, there was a girl and her dog. The girl was very excited because she was going on an adventure. She asked her dog to help her find something special.The dog barked happily and said, "I can help
+2026-01-04 05:47:20 | INFO | === End sample ===
+2026-01-04 05:47:22 | INFO | step=3660 loss=1.7590 lr=9.98e-05 time=787.6s
+2026-01-04 05:47:23 | INFO | step=3670 loss=1.3370 lr=9.90e-05 time=789.1s
+2026-01-04 05:47:25 | INFO | step=3680 loss=1.4332 lr=9.83e-05 time=790.7s
+2026-01-04 05:47:26 | INFO | step=3690 loss=1.4741 lr=9.75e-05 time=792.2s
+2026-01-04 05:47:28 | INFO | step=3700 loss=1.4033 lr=9.68e-05 time=793.7s
+2026-01-04 05:47:28 | INFO | === Generation sample ===
+2026-01-04 05:47:30 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and showed it to her dog. They played together and had fun.Story: Once upon a time, there was a girl and her dog. The girl was very happy and she loved her dog very much. One day, the girl and her dog went on an adventure. They went to a big park and saw a big, shiny rock. The girl wanted
+2026-01-04 05:47:30 | INFO | === End sample ===
+2026-01-04 05:47:32 | INFO | step=3710 loss=1.5500 lr=9.61e-05 time=797.6s
+2026-01-04 05:47:33 | INFO | step=3720 loss=1.6004 lr=9.53e-05 time=799.1s
+2026-01-04 05:47:35 | INFO | step=3730 loss=1.4316 lr=9.46e-05 time=800.6s
+2026-01-04 05:47:36 | INFO | step=3740 loss=1.6641 lr=9.39e-05 time=802.2s
+2026-01-04 05:47:38 | INFO | step=3750 loss=1.4279 lr=9.31e-05 time=803.7s
+2026-01-04 05:47:38 | INFO | === Generation sample ===
+2026-01-04 05:47:40 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box with a picture of a cat inside. They opened the box and found a toy car. They played with the car and had fun.Story: Once upon a time, there was a girl and her dog. The girl was very happy. She liked to play with her dog. One day, the girl and her dog went on an adventure. They went to a
+2026-01-04 05:47:40 | INFO | === End sample ===
+2026-01-04 05:47:42 | INFO | step=3760 loss=1.5962 lr=9.24e-05 time=807.6s
+2026-01-04 05:47:43 | INFO | step=3770 loss=1.5425 lr=9.17e-05 time=809.2s
+2026-01-04 05:47:45 | INFO | step=3780 loss=1.5447 lr=9.10e-05 time=810.7s
+2026-01-04 05:47:46 | INFO | step=3790 loss=1.4775 lr=9.02e-05 time=812.2s
+2026-01-04 05:47:48 | INFO | step=3800 loss=1.5691 lr=8.95e-05 time=813.8s
+2026-01-04 05:47:48 | INFO | === Generation sample ===
+2026-01-04 05:47:50 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, which turned out to be a magic box that could make wishes come true. The girl and her dog played together every day.Story: Once upon a time, there was a girl and her dog. The girl loved to play with her dog. They would run and jump and have fun together.One day, the girl and her dog went on
+2026-01-04 05:47:50 | INFO | === End sample ===
+2026-01-04 05:47:52 | INFO | step=3810 loss=1.9759 lr=8.88e-05 time=817.7s
+2026-01-04 05:47:53 | INFO | step=3820 loss=1.9787 lr=8.81e-05 time=819.2s
+2026-01-04 05:47:55 | INFO | step=3830 loss=2.0117 lr=8.74e-05 time=820.8s
+2026-01-04 05:47:56 | INFO | step=3840 loss=2.0344 lr=8.66e-05 time=822.3s
+2026-01-04 05:47:58 | INFO | step=3850 loss=1.9266 lr=8.59e-05 time=823.9s
+2026-01-04 05:47:58 | INFO | === Generation sample ===
+2026-01-04 05:48:00 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared but the dog was brave and they went on a fun adventure together.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl wanted to go on an adventure. She asked her dog to help her. So, the girl and her dog went on an adventure.They went on a big slide and a
+2026-01-04 05:48:00 | INFO | === End sample ===
+2026-01-04 05:48:02 | INFO | step=3860 loss=1.7001 lr=8.52e-05 time=827.8s
+2026-01-04 05:48:03 | INFO | step=3870 loss=1.8585 lr=8.45e-05 time=829.3s
+2026-01-04 05:48:05 | INFO | step=3880 loss=1.6045 lr=8.38e-05 time=830.9s
+2026-01-04 05:48:06 | INFO | step=3890 loss=1.3291 lr=8.31e-05 time=832.4s
+2026-01-04 05:48:08 | INFO | step=3900 loss=1.3907 lr=8.24e-05 time=833.9s
+2026-01-04 05:48:08 | INFO | === Generation sample ===
+2026-01-04 05:48:10 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and showed it to her dog, who was scared but eventually agreed to help her. They continued on their adventure and had a great time.Story: Once upon a time, there was a girl and her dog. The girl was very happy and she loved her dog very much. One day, the girl and her dog went on an adventure. They went
+2026-01-04 05:48:10 | INFO | === End sample ===
+2026-01-04 05:48:12 | INFO | step=3910 loss=1.4189 lr=8.17e-05 time=837.8s
+2026-01-04 05:48:13 | INFO | step=3920 loss=1.2386 lr=8.10e-05 time=839.3s
+2026-01-04 05:48:15 | INFO | step=3930 loss=1.2492 lr=8.03e-05 time=840.9s
+2026-01-04 05:48:18 | INFO | New best model saved (loss=1.1347)
+2026-01-04 05:48:18 | INFO | step=3940 loss=1.5062 lr=7.96e-05 time=844.4s
+2026-01-04 05:48:20 | INFO | step=3950 loss=2.0813 lr=7.89e-05 time=845.9s
+2026-01-04 05:48:20 | INFO | === Generation sample ===
+2026-01-04 05:48:22 | INFO | Summary: A girl and her dog went on an adventure. They saw many things, but the girl's dog was the best. They played together and had lots of fun.Story: Once upon a time, there was a girl and her dog. They were best friends. They liked to play together every day. One day, they went on an adventure. They saw many things, like trees and flowers. They also saw a big, red ball. The
+2026-01-04 05:48:22 | INFO | === End sample ===
+2026-01-04 05:48:24 | INFO | step=3960 loss=1.7690 lr=7.82e-05 time=849.9s
+2026-01-04 05:48:25 | INFO | step=3970 loss=1.7746 lr=7.75e-05 time=851.4s
+2026-01-04 05:48:27 | INFO | step=3980 loss=1.9388 lr=7.68e-05 time=852.9s
+2026-01-04 05:48:28 | INFO | step=3990 loss=2.0361 lr=7.61e-05 time=854.5s
+2026-01-04 05:48:30 | INFO | step=4000 loss=1.8260 lr=7.55e-05 time=856.0s
+2026-01-04 05:48:30 | INFO | === Generation sample ===
+2026-01-04 05:48:32 | INFO | Summary: A girl and her dog went on an adventure. The girl was excited to see the world and the dog was excited to explore.Story: Once upon a time there was a girl and her dog. The girl was very excited to go on an adventure. She put on her shoes and ran outside. The girl and her dog went on a long walk. They saw many things and had lots of fun. The girl and her dog were so
+2026-01-04 05:48:32 | INFO | === End sample ===
+2026-01-04 05:48:34 | INFO | Saved latest checkpoint at step 4000
+2026-01-04 05:48:36 | INFO | step=4010 loss=1.5084 lr=7.48e-05 time=861.9s
+2026-01-04 05:48:37 | INFO | step=4020 loss=1.4143 lr=7.41e-05 time=863.5s
+2026-01-04 05:48:39 | INFO | step=4030 loss=1.4111 lr=7.34e-05 time=865.0s
+2026-01-04 05:48:40 | INFO | step=4040 loss=1.3983 lr=7.27e-05 time=866.5s
+2026-01-04 05:48:42 | INFO | step=4050 loss=1.4884 lr=7.21e-05 time=868.1s
+2026-01-04 05:48:42 | INFO | === Generation sample ===
+2026-01-04 05:48:44 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and showed it to her dog, who loved it and they continued their adventure.Words: find, rock, shinyStory: Once upon a time, there was a girl and her dog. The girl loved to find shiny rocks. One day, she found a big, shiny rock in the park. The girl was very happy and showed it to her dog.
+2026-01-04 05:48:44 | INFO | === End sample ===
+2026-01-04 05:48:46 | INFO | step=4060 loss=1.3538 lr=7.14e-05 time=872.0s
+2026-01-04 05:48:48 | INFO | step=4070 loss=1.6068 lr=7.07e-05 time=873.6s
+2026-01-04 05:48:49 | INFO | step=4080 loss=1.5235 lr=7.01e-05 time=875.1s
+2026-01-04 05:48:51 | INFO | step=4090 loss=1.3922 lr=6.94e-05 time=876.6s
+2026-01-04 05:48:52 | INFO | step=4100 loss=1.5256 lr=6.87e-05 time=878.2s
+2026-01-04 05:48:52 | INFO | === Generation sample ===
+2026-01-04 05:48:55 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box of toys and a ball, but the dog ran away. The girl found a new toy and the dog came back, and they played together happily.Story: One day, a girl and her dog went on an adventure. They wanted to find something new and fun. They walked and walked until they saw a big box. The box was full of toys. The
+2026-01-04 05:48:55 | INFO | === End sample ===
+2026-01-04 05:48:56 | INFO | step=4110 loss=1.3782 lr=6.81e-05 time=882.1s
+2026-01-04 05:48:58 | INFO | step=4120 loss=1.6837 lr=6.74e-05 time=883.7s
+2026-01-04 05:48:59 | INFO | step=4130 loss=1.2619 lr=6.67e-05 time=885.2s
+2026-01-04 05:49:01 | INFO | step=4140 loss=1.3610 lr=6.61e-05 time=886.7s
+2026-01-04 05:49:02 | INFO | step=4150 loss=1.3767 lr=6.54e-05 time=888.3s
+2026-01-04 05:49:02 | INFO | === Generation sample ===
+2026-01-04 05:49:05 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, which led to a room full of toys. The girl and her dog played with the toys and had a great day.Story: Once upon a time, there was a girl and her dog. The girl liked to play with her dog. She would run, jump, and bark. The dog liked to play with her. They would run and
+2026-01-04 05:49:05 | INFO | === End sample ===
+2026-01-04 05:49:06 | INFO | step=4160 loss=1.4854 lr=6.48e-05 time=892.3s
+2026-01-04 05:49:08 | INFO | step=4170 loss=1.3314 lr=6.41e-05 time=893.8s
+2026-01-04 05:49:09 | INFO | step=4180 loss=1.1944 lr=6.35e-05 time=895.3s
+2026-01-04 05:49:11 | INFO | step=4190 loss=1.3945 lr=6.29e-05 time=896.9s
+2026-01-04 05:49:12 | INFO | step=4200 loss=1.2442 lr=6.22e-05 time=898.4s
+2026-01-04 05:49:12 | INFO | === Generation sample ===
+2026-01-04 05:49:15 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, and inside, there was a big, shiny rock. The girl and her dog played with the rock all day, and the girl was happy.Features: Dialogue, BadEnding, ConflictWords: bring,Lily, beautifulStory: Once upon a time, there was a little girl named Lily. She loved to play with her toys and her
+2026-01-04 05:49:15 | INFO | === End sample ===
+2026-01-04 05:49:16 | INFO | step=4210 loss=1.4276 lr=6.16e-05 time=902.3s
+2026-01-04 05:49:18 | INFO | step=4220 loss=1.4436 lr=6.09e-05 time=903.9s
+2026-01-04 05:49:19 | INFO | step=4230 loss=1.2463 lr=6.03e-05 time=905.4s
+2026-01-04 05:49:21 | INFO | step=4240 loss=1.1999 lr=5.97e-05 time=906.9s
+2026-01-04 05:49:22 | INFO | step=4250 loss=1.2567 lr=5.91e-05 time=908.5s
+2026-01-04 05:49:22 | INFO | === Generation sample ===
+2026-01-04 05:49:25 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and her dog helped her open it, and they became good friends.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They went on an adventure together. They went to a big box and the girl opened it. Inside, there was a big box with a picture of a cat on
+2026-01-04 05:49:25 | INFO | === End sample ===
+2026-01-04 05:49:26 | INFO | step=4260 loss=1.3946 lr=5.84e-05 time=912.4s
+2026-01-04 05:49:28 | INFO | step=4270 loss=1.6713 lr=5.78e-05 time=913.9s
+2026-01-04 05:49:29 | INFO | step=4280 loss=1.3647 lr=5.72e-05 time=915.4s
+2026-01-04 05:49:31 | INFO | step=4290 loss=1.4639 lr=5.66e-05 time=916.9s
+2026-01-04 05:49:32 | INFO | step=4300 loss=1.7138 lr=5.59e-05 time=918.5s
+2026-01-04 05:49:32 | INFO | === Generation sample ===
+2026-01-04 05:49:35 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, and inside, there were toys and candy. The girl and her dog played with the toys and the candy, and the girl was happy.Story: One day, a girl and her dog went on an adventure. They wanted to find something new and fun. They walked and walked until they saw a big box. The box was open and there
+2026-01-04 05:49:35 | INFO | === End sample ===
+2026-01-04 05:49:36 | INFO | step=4310 loss=1.4608 lr=5.53e-05 time=922.5s
+2026-01-04 05:49:38 | INFO | step=4320 loss=1.4540 lr=5.47e-05 time=924.0s
+2026-01-04 05:49:39 | INFO | step=4330 loss=1.2840 lr=5.41e-05 time=925.5s
+2026-01-04 05:49:41 | INFO | step=4340 loss=1.2472 lr=5.35e-05 time=927.1s
+2026-01-04 05:49:43 | INFO | step=4350 loss=1.4231 lr=5.29e-05 time=928.6s
+2026-01-04 05:49:43 | INFO | === Generation sample ===
+2026-01-04 05:49:45 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, and inside was a new toy. The girl and her dog played together and had a great day.Words: open, girl, largeStory: Once upon a time, there was a girl. She had a large dog. The girl and her dog went on an adventure. They went to a big park. The girl found a big box. She
+2026-01-04 05:49:45 | INFO | === End sample ===
+2026-01-04 05:49:46 | INFO | step=4360 loss=1.4762 lr=5.23e-05 time=932.5s
+2026-01-04 05:49:48 | INFO | step=4370 loss=1.6087 lr=5.17e-05 time=934.1s
+2026-01-04 05:49:50 | INFO | step=4380 loss=1.4424 lr=5.11e-05 time=935.6s
+2026-01-04 05:49:51 | INFO | step=4390 loss=1.7508 lr=5.05e-05 time=937.1s
+2026-01-04 05:49:53 | INFO | step=4400 loss=2.0859 lr=4.99e-05 time=938.7s
+2026-01-04 05:49:53 | INFO | === Generation sample ===
+2026-01-04 05:49:55 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big box and opened it, and inside, there was a toy car. The girl and her dog played with the car and had fun.Story: One day, a girl and her dog went on an adventure. They wanted to see what was in the big box. The girl was very curious and wanted to know what was inside. She opened the box and saw many things
+2026-01-04 05:49:55 | INFO | === End sample ===
+2026-01-04 05:49:57 | INFO | step=4410 loss=2.0860 lr=4.94e-05 time=942.6s
+2026-01-04 05:49:58 | INFO | step=4420 loss=2.0057 lr=4.88e-05 time=944.2s
+2026-01-04 05:50:00 | INFO | step=4430 loss=2.0728 lr=4.82e-05 time=945.7s
+2026-01-04 05:50:01 | INFO | step=4440 loss=1.7973 lr=4.76e-05 time=947.2s
+2026-01-04 05:50:03 | INFO | step=4450 loss=1.8931 lr=4.70e-05 time=948.8s
+2026-01-04 05:50:03 | INFO | === Generation sample ===
+2026-01-04 05:50:05 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared, but her dog helped her overcome her fear and they had a fun day together.Story: Once upon a time there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big park and saw lots of trees and flowers. The girl was so excited to see all the things she
+2026-01-04 05:50:05 | INFO | === End sample ===
+2026-01-04 05:50:07 | INFO | step=4460 loss=1.9225 lr=4.65e-05 time=952.7s
+2026-01-04 05:50:08 | INFO | step=4470 loss=1.4206 lr=4.59e-05 time=954.2s
+2026-01-04 05:50:10 | INFO | step=4480 loss=1.4533 lr=4.53e-05 time=955.8s
+2026-01-04 05:50:11 | INFO | step=4490 loss=1.8384 lr=4.48e-05 time=957.3s
+2026-01-04 05:50:13 | INFO | step=4500 loss=1.8243 lr=4.42e-05 time=958.8s
+2026-01-04 05:50:13 | INFO | === Generation sample ===
+2026-01-04 05:50:15 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared, but her dog helped her overcome her fear.Story: Once upon a time, there was a girl who was very scared. She was so scared that she wanted to go home. But then her dog came and helped her overcome her fear. The girl was so happy and she thanked her dog. The girl and her dog went on an adventure. They went to a
+2026-01-04 05:50:15 | INFO | === End sample ===
+2026-01-04 05:50:17 | INFO | Saved latest checkpoint at step 4500
+2026-01-04 05:50:19 | INFO | step=4510 loss=1.8506 lr=4.37e-05 time=964.7s
+2026-01-04 05:50:20 | INFO | step=4520 loss=1.8213 lr=4.31e-05 time=966.2s
+2026-01-04 05:50:22 | INFO | step=4530 loss=1.8425 lr=4.26e-05 time=967.7s
+2026-01-04 05:50:23 | INFO | step=4540 loss=1.9370 lr=4.20e-05 time=969.3s
+2026-01-04 05:50:25 | INFO | step=4550 loss=1.3899 lr=4.15e-05 time=970.8s
+2026-01-04 05:50:25 | INFO | === Generation sample ===
+2026-01-04 05:50:27 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared but her dog helped her find her way back home.Story: Once upon a time there was a girl who was very scared. She was walking in the park and she saw a big dog. The girl was so scared that she ran away. She ran and ran until she was very tired. Then she saw her dog and she was so happy. She ran back home and
+2026-01-04 05:50:27 | INFO | === End sample ===
+2026-01-04 05:50:29 | INFO | step=4560 loss=1.7167 lr=4.09e-05 time=974.8s
+2026-01-04 05:50:30 | INFO | step=4570 loss=1.8797 lr=4.04e-05 time=976.3s
+2026-01-04 05:50:32 | INFO | step=4580 loss=1.7383 lr=3.98e-05 time=977.9s
+2026-01-04 05:50:33 | INFO | step=4590 loss=1.8124 lr=3.93e-05 time=979.4s
+2026-01-04 05:50:35 | INFO | step=4600 loss=1.9764 lr=3.88e-05 time=980.9s
+2026-01-04 05:50:35 | INFO | === Generation sample ===
+2026-01-04 05:50:37 | INFO | Summary: A girl and her dog went on an adventure. The girl was scared, but her dog helped her overcome her fear and they had a fun day together.Story: Once upon a time, there was a girl. She was very brave and she wanted to go on an adventure. So she asked her dog to help her. The dog was very good at helping people. The girl and her dog went on an adventure. They went to a
+2026-01-04 05:50:37 | INFO | === End sample ===
+2026-01-04 05:50:39 | INFO | step=4610 loss=1.7340 lr=3.82e-05 time=984.9s
+2026-01-04 05:50:40 | INFO | step=4620 loss=1.3908 lr=3.77e-05 time=986.4s
+2026-01-04 05:50:42 | INFO | step=4630 loss=1.3407 lr=3.72e-05 time=988.0s
+2026-01-04 05:50:43 | INFO | step=4640 loss=1.3773 lr=3.67e-05 time=989.5s
+2026-01-04 05:50:45 | INFO | step=4650 loss=1.4167 lr=3.62e-05 time=991.0s
+2026-01-04 05:50:45 | INFO | === Generation sample ===
+2026-01-04 05:50:47 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They became good friends and went on many adventures together.Story: Once upon a time, there was a girl and her dog. They were very good friends. One day, the girl and her dog went on an adventure. They went to a big, shiny rock. The girl was very happy and she said,
+2026-01-04 05:50:47 | INFO | === End sample ===
+2026-01-04 05:50:50 | INFO | New best model saved (loss=1.0939)
+2026-01-04 05:50:51 | INFO | step=4660 loss=1.3341 lr=3.57e-05 time=996.9s
+2026-01-04 05:50:52 | INFO | step=4670 loss=1.4805 lr=3.51e-05 time=998.5s
+2026-01-04 05:50:54 | INFO | step=4680 loss=1.4637 lr=3.46e-05 time=1000.0s
+2026-01-04 05:50:55 | INFO | step=4690 loss=1.4719 lr=3.41e-05 time=1001.5s
+2026-01-04 05:50:57 | INFO | step=4700 loss=1.5970 lr=3.36e-05 time=1003.1s
+2026-01-04 05:50:57 | INFO | === Generation sample ===
+2026-01-04 05:50:59 | INFO | Summary: A girl and her dog went on an adventure. They saw a big tree and a bird, but the girl's dog got stuck in the tree. The girl's dog was able to get away and they continued their adventure.Story: Once upon a time, there was a girl and her dog. They were very happy. They liked to play and run and jump.One day, they went on an adventure. They saw a big tree.
+2026-01-04 05:50:59 | INFO | === End sample ===
+2026-01-04 05:51:01 | INFO | step=4710 loss=1.5909 lr=3.31e-05 time=1007.0s
+2026-01-04 05:51:03 | INFO | step=4720 loss=1.2928 lr=3.27e-05 time=1008.6s
+2026-01-04 05:51:04 | INFO | step=4730 loss=1.1336 lr=3.22e-05 time=1010.1s
+2026-01-04 05:51:06 | INFO | step=4740 loss=1.2480 lr=3.17e-05 time=1011.6s
+2026-01-04 05:51:07 | INFO | step=4750 loss=1.3437 lr=3.12e-05 time=1013.2s
+2026-01-04 05:51:07 | INFO | === Generation sample ===
+2026-01-04 05:51:10 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and showed it to her dog, who was scared but happy. They continued their adventure and found a big, shiny rock.Story: Once upon a time, there was a girl and her dog. They were very happy.One day, the girl and her dog went on an adventure. They went to a big, shiny rock. The girl was very
+2026-01-04 05:51:10 | INFO | === End sample ===
+2026-01-04 05:51:11 | INFO | step=4760 loss=1.2558 lr=3.07e-05 time=1017.4s
+2026-01-04 05:51:13 | INFO | step=4770 loss=1.2330 lr=3.02e-05 time=1018.9s
+2026-01-04 05:51:14 | INFO | step=4780 loss=1.9089 lr=2.98e-05 time=1020.4s
+2026-01-04 05:51:16 | INFO | step=4790 loss=2.0012 lr=2.93e-05 time=1022.0s
+2026-01-04 05:51:17 | INFO | step=4800 loss=1.8149 lr=2.88e-05 time=1023.5s
+2026-01-04 05:51:17 | INFO | === Generation sample ===
+2026-01-04 05:51:20 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it.Story: Once upon a time, there was a girl who had a dog. The girl and her dog went on an adventure. They went to a big, shiny rock. The girl was so excited to find the rock. She said to her dog, "Look, dog, I found a big, shiny rock
+2026-01-04 05:51:20 | INFO | === End sample ===
+2026-01-04 05:51:21 | INFO | step=4810 loss=1.9049 lr=2.84e-05 time=1027.5s
+2026-01-04 05:51:23 | INFO | step=4820 loss=1.8651 lr=2.79e-05 time=1029.1s
+2026-01-04 05:51:25 | INFO | step=4830 loss=1.7712 lr=2.75e-05 time=1030.6s
+2026-01-04 05:51:26 | INFO | step=4840 loss=1.8343 lr=2.70e-05 time=1032.1s
+2026-01-04 05:51:28 | INFO | step=4850 loss=1.3166 lr=2.66e-05 time=1033.7s
+2026-01-04 05:51:28 | INFO | === Generation sample ===
+2026-01-04 05:51:30 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found it and the girl was very happy.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They walked and walked until they found a big, shiny rock. The girl was so excited and
+2026-01-04 05:51:30 | INFO | === End sample ===
+2026-01-04 05:51:31 | INFO | step=4860 loss=1.2331 lr=2.61e-05 time=1037.5s
+2026-01-04 05:51:33 | INFO | step=4870 loss=1.3291 lr=2.57e-05 time=1039.1s
+2026-01-04 05:51:35 | INFO | step=4880 loss=1.3202 lr=2.52e-05 time=1040.6s
+2026-01-04 05:51:36 | INFO | step=4890 loss=1.1916 lr=2.48e-05 time=1042.1s
+2026-01-04 05:51:38 | INFO | step=4900 loss=1.5639 lr=2.44e-05 time=1043.6s
+2026-01-04 05:51:38 | INFO | === Generation sample ===
+2026-01-04 05:51:40 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and her dog helped her carry it, and they became good friends.Story: Once upon a time, there was a girl and her dog. They were very good friends. One day, the girl went on an adventure. She wanted to find a big rock. She walked and walked until she found a big rock. She was so happy! She showed her dog
+2026-01-04 05:51:40 | INFO | === End sample ===
+2026-01-04 05:51:42 | INFO | step=4910 loss=1.6098 lr=2.39e-05 time=1047.6s
+2026-01-04 05:51:43 | INFO | step=4920 loss=1.1090 lr=2.35e-05 time=1049.2s
+2026-01-04 05:51:45 | INFO | step=4930 loss=1.3218 lr=2.31e-05 time=1050.7s
+2026-01-04 05:51:46 | INFO | step=4940 loss=1.3095 lr=2.27e-05 time=1052.2s
+2026-01-04 05:51:48 | INFO | step=4950 loss=1.7751 lr=2.22e-05 time=1053.8s
+2026-01-04 05:51:48 | INFO | === Generation sample ===
+2026-01-04 05:51:50 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and her dog helped her carry it, and they became friends.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They walked and walked until they came to a big rock. The girl was very excited and said, "Look, dog, I
+2026-01-04 05:51:50 | INFO | === End sample ===
+2026-01-04 05:51:52 | INFO | step=4960 loss=1.9575 lr=2.18e-05 time=1057.7s
+2026-01-04 05:51:53 | INFO | step=4970 loss=1.8917 lr=2.14e-05 time=1059.2s
+2026-01-04 05:51:55 | INFO | step=4980 loss=1.8975 lr=2.10e-05 time=1060.8s
+2026-01-04 05:51:56 | INFO | step=4990 loss=1.8561 lr=2.06e-05 time=1062.3s
+2026-01-04 05:51:58 | INFO | step=5000 loss=1.6409 lr=2.02e-05 time=1063.9s
+2026-01-04 05:51:58 | INFO | === Generation sample ===
+2026-01-04 05:52:00 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They continued on their adventure and had a great time.Story: Once upon a time, there was a girl and her dog. The girl was very excited because she was going on an adventure. She said to her dog, "Let's go on an adventure!" The dog barked and wagged his tail
+2026-01-04 05:52:00 | INFO | === End sample ===
+2026-01-04 05:52:02 | INFO | Saved latest checkpoint at step 5000
+2026-01-04 05:52:04 | INFO | step=5010 loss=1.9120 lr=1.98e-05 time=1069.8s
+2026-01-04 05:52:05 | INFO | step=5020 loss=1.7331 lr=1.94e-05 time=1071.4s
+2026-01-04 05:52:07 | INFO | step=5030 loss=1.3417 lr=1.91e-05 time=1072.9s
+2026-01-04 05:52:08 | INFO | step=5040 loss=1.3913 lr=1.87e-05 time=1074.4s
+2026-01-04 05:52:10 | INFO | step=5050 loss=1.5999 lr=1.83e-05 time=1076.0s
+2026-01-04 05:52:10 | INFO | === Generation sample ===
+2026-01-04 05:52:12 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found the rock and the girl was happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and she wanted to go on an adventure. She asked her dog to help her find something special. The dog was very good at finding things. The girl and
+2026-01-04 05:52:12 | INFO | === End sample ===
+2026-01-04 05:52:14 | INFO | step=5060 loss=1.1568 lr=1.79e-05 time=1080.0s
+2026-01-04 05:52:15 | INFO | step=5070 loss=1.5976 lr=1.75e-05 time=1081.5s
+2026-01-04 05:52:17 | INFO | step=5080 loss=1.5502 lr=1.72e-05 time=1083.1s
+2026-01-04 05:52:19 | INFO | step=5090 loss=1.6084 lr=1.68e-05 time=1084.6s
+2026-01-04 05:52:20 | INFO | step=5100 loss=1.5067 lr=1.65e-05 time=1086.1s
+2026-01-04 05:52:20 | INFO | === Generation sample ===
+2026-01-04 05:52:22 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very happy. They went on an adventure. The girl and her dog went to a big, shiny rock. The girl was very
+2026-01-04 05:52:22 | INFO | === End sample ===
+2026-01-04 05:52:24 | INFO | step=5110 loss=1.2834 lr=1.61e-05 time=1090.0s
+2026-01-04 05:52:26 | INFO | step=5120 loss=1.4635 lr=1.57e-05 time=1091.6s
+2026-01-04 05:52:27 | INFO | step=5130 loss=1.3344 lr=1.54e-05 time=1093.1s
+2026-01-04 05:52:29 | INFO | step=5140 loss=1.2949 lr=1.51e-05 time=1094.6s
+2026-01-04 05:52:30 | INFO | step=5150 loss=1.4535 lr=1.47e-05 time=1096.2s
+2026-01-04 05:52:30 | INFO | === Generation sample ===
+2026-01-04 05:52:33 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They went on an adventure together.The girl and her dog went to a big, shiny rock. The girl was
+2026-01-04 05:52:33 | INFO | === End sample ===
+2026-01-04 05:52:34 | INFO | step=5160 loss=1.5460 lr=1.44e-05 time=1100.1s
+2026-01-04 05:52:36 | INFO | step=5170 loss=1.6129 lr=1.40e-05 time=1101.6s
+2026-01-04 05:52:37 | INFO | step=5180 loss=1.4587 lr=1.37e-05 time=1103.2s
+2026-01-04 05:52:39 | INFO | step=5190 loss=1.8912 lr=1.34e-05 time=1104.7s
+2026-01-04 05:52:40 | INFO | step=5200 loss=1.4817 lr=1.31e-05 time=1106.2s
+2026-01-04 05:52:40 | INFO | === Generation sample ===
+2026-01-04 05:52:43 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and her dog helped her get it. They played together and had fun.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big hill. The girl was very excited. She wanted to see what was on the other side.
+2026-01-04 05:52:43 | INFO | === End sample ===
+2026-01-04 05:52:44 | INFO | step=5210 loss=1.3691 lr=1.27e-05 time=1110.2s
+2026-01-04 05:52:46 | INFO | step=5220 loss=1.3556 lr=1.24e-05 time=1111.8s
+2026-01-04 05:52:47 | INFO | step=5230 loss=1.2909 lr=1.21e-05 time=1113.4s
+2026-01-04 05:52:49 | INFO | step=5240 loss=1.3347 lr=1.18e-05 time=1114.9s
+2026-01-04 05:52:50 | INFO | step=5250 loss=1.3029 lr=1.15e-05 time=1116.4s
+2026-01-04 05:52:50 | INFO | === Generation sample ===
+2026-01-04 05:52:53 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They went on an adventure together.The girl and her dog went to a big, shiny rock. The girl
+2026-01-04 05:52:53 | INFO | === End sample ===
+2026-01-04 05:52:54 | INFO | step=5260 loss=1.1756 lr=1.12e-05 time=1120.3s
+2026-01-04 05:52:56 | INFO | step=5270 loss=1.8928 lr=1.09e-05 time=1121.8s
+2026-01-04 05:52:57 | INFO | step=5280 loss=1.8340 lr=1.06e-05 time=1123.4s
+2026-01-04 05:52:59 | INFO | step=5290 loss=2.2385 lr=1.03e-05 time=1124.9s
+2026-01-04 05:53:00 | INFO | step=5300 loss=1.9406 lr=1.00e-05 time=1126.4s
+2026-01-04 05:53:00 | INFO | === Generation sample ===
+2026-01-04 05:53:03 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found the rock and the girl was very happy.Story: Once upon a time there was a girl and her dog. The girl was very happy and she loved her dog very much.One day, the girl and her dog went on an adventure. They went to a big, shiny rock. The girl was
+2026-01-04 05:53:03 | INFO | === End sample ===
+2026-01-04 05:53:04 | INFO | step=5310 loss=1.7469 lr=9.75e-06 time=1130.4s
+2026-01-04 05:53:06 | INFO | step=5320 loss=1.9626 lr=9.47e-06 time=1131.9s
+2026-01-04 05:53:07 | INFO | step=5330 loss=1.7900 lr=9.20e-06 time=1133.5s
+2026-01-04 05:53:09 | INFO | step=5340 loss=1.3699 lr=8.93e-06 time=1135.0s
+2026-01-04 05:53:11 | INFO | step=5350 loss=1.7519 lr=8.66e-06 time=1136.6s
+2026-01-04 05:53:11 | INFO | === Generation sample ===
+2026-01-04 05:53:13 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They continued on their adventure and had a great time.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big, shiny rock. The girl was so excited to find the rock
+2026-01-04 05:53:13 | INFO | === End sample ===
+2026-01-04 05:53:14 | INFO | step=5360 loss=1.9159 lr=8.40e-06 time=1140.5s
+2026-01-04 05:53:16 | INFO | step=5370 loss=2.1659 lr=8.14e-06 time=1142.0s
+2026-01-04 05:53:18 | INFO | step=5380 loss=1.8892 lr=7.89e-06 time=1143.6s
+2026-01-04 05:53:19 | INFO | step=5390 loss=1.8514 lr=7.64e-06 time=1145.1s
+2026-01-04 05:53:21 | INFO | step=5400 loss=1.9605 lr=7.39e-06 time=1146.6s
+2026-01-04 05:53:21 | INFO | === Generation sample ===
+2026-01-04 05:53:23 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They continued on their adventure and had a great time.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big, shiny rock. The girl was so excited! She said,
+2026-01-04 05:53:23 | INFO | === End sample ===
+2026-01-04 05:53:24 | INFO | step=5410 loss=1.9475 lr=7.15e-06 time=1150.5s
+2026-01-04 05:53:26 | INFO | step=5420 loss=1.2400 lr=6.91e-06 time=1152.1s
+2026-01-04 05:53:28 | INFO | step=5430 loss=1.4051 lr=6.68e-06 time=1153.6s
+2026-01-04 05:53:29 | INFO | step=5440 loss=1.2138 lr=6.44e-06 time=1155.1s
+2026-01-04 05:53:31 | INFO | step=5450 loss=1.2073 lr=6.22e-06 time=1156.7s
+2026-01-04 05:53:31 | INFO | === Generation sample ===
+2026-01-04 05:53:33 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They continued their adventure and had a great time.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big, shiny rock. The girl was so excited to find the rock.
+2026-01-04 05:53:33 | INFO | === End sample ===
+2026-01-04 05:53:35 | INFO | step=5460 loss=1.1807 lr=6.00e-06 time=1160.7s
+2026-01-04 05:53:36 | INFO | step=5470 loss=1.3380 lr=5.78e-06 time=1162.2s
+2026-01-04 05:53:38 | INFO | step=5480 loss=1.5244 lr=5.56e-06 time=1163.7s
+2026-01-04 05:53:39 | INFO | step=5490 loss=1.2036 lr=5.35e-06 time=1165.3s
+2026-01-04 05:53:41 | INFO | step=5500 loss=1.5835 lr=5.15e-06 time=1166.8s
+2026-01-04 05:53:41 | INFO | === Generation sample ===
+2026-01-04 05:53:43 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:53:43 | INFO | === End sample ===
+2026-01-04 05:53:45 | INFO | Saved latest checkpoint at step 5500
+2026-01-04 05:53:47 | INFO | step=5510 loss=1.7150 lr=4.94e-06 time=1172.6s
+2026-01-04 05:53:48 | INFO | step=5520 loss=1.4369 lr=4.74e-06 time=1174.2s
+2026-01-04 05:53:50 | INFO | step=5530 loss=1.2436 lr=4.55e-06 time=1175.7s
+2026-01-04 05:53:51 | INFO | step=5540 loss=1.6067 lr=4.36e-06 time=1177.2s
+2026-01-04 05:53:53 | INFO | step=5550 loss=1.4706 lr=4.17e-06 time=1178.8s
+2026-01-04 05:53:53 | INFO | === Generation sample ===
+2026-01-04 05:53:55 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and her dog helped her get it. They had a fun day together.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big rock. The girl was very excited. She wanted to get the rock. She said to her
+2026-01-04 05:53:55 | INFO | === End sample ===
+2026-01-04 05:53:57 | INFO | step=5560 loss=1.4509 lr=3.99e-06 time=1182.8s
+2026-01-04 05:53:58 | INFO | step=5570 loss=1.3147 lr=3.81e-06 time=1184.3s
+2026-01-04 05:54:00 | INFO | step=5580 loss=1.4543 lr=3.64e-06 time=1185.8s
+2026-01-04 05:54:01 | INFO | step=5590 loss=1.1812 lr=3.47e-06 time=1187.3s
+2026-01-04 05:54:03 | INFO | step=5600 loss=1.5124 lr=3.30e-06 time=1188.9s
+2026-01-04 05:54:03 | INFO | === Generation sample ===
+2026-01-04 05:54:05 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went to
+2026-01-04 05:54:05 | INFO | === End sample ===
+2026-01-04 05:54:07 | INFO | step=5610 loss=1.4545 lr=3.14e-06 time=1192.9s
+2026-01-04 05:54:08 | INFO | step=5620 loss=1.7435 lr=2.98e-06 time=1194.4s
+2026-01-04 05:54:10 | INFO | step=5630 loss=1.5464 lr=2.82e-06 time=1195.9s
+2026-01-04 05:54:11 | INFO | step=5640 loss=1.6678 lr=2.67e-06 time=1197.5s
+2026-01-04 05:54:14 | INFO | New best model saved (loss=1.0888)
+2026-01-04 05:54:15 | INFO | step=5650 loss=1.2875 lr=2.53e-06 time=1201.0s
+2026-01-04 05:54:15 | INFO | === Generation sample ===
+2026-01-04 05:54:17 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big rock and her dog helped her get it. They had a fun day together.Story: Once upon a time, there was a girl and her dog. They were very happy together.One day, the girl and her dog went on an adventure. They went to a big hill. The girl was very excited. She wanted to see what was on the other side.
+2026-01-04 05:54:17 | INFO | === End sample ===
+2026-01-04 05:54:19 | INFO | step=5660 loss=1.3658 lr=2.39e-06 time=1205.0s
+2026-01-04 05:54:20 | INFO | step=5670 loss=2.0792 lr=2.25e-06 time=1206.5s
+2026-01-04 05:54:22 | INFO | step=5680 loss=1.9875 lr=2.11e-06 time=1208.0s
+2026-01-04 05:54:24 | INFO | step=5690 loss=1.6016 lr=1.98e-06 time=1209.6s
+2026-01-04 05:54:25 | INFO | step=5700 loss=1.7251 lr=1.86e-06 time=1211.1s
+2026-01-04 05:54:25 | INFO | === Generation sample ===
+2026-01-04 05:54:28 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long road. They saw
+2026-01-04 05:54:28 | INFO | === End sample ===
+2026-01-04 05:54:29 | INFO | step=5710 loss=2.0214 lr=1.74e-06 time=1215.1s
+2026-01-04 05:54:31 | INFO | step=5720 loss=1.8564 lr=1.62e-06 time=1216.7s
+2026-01-04 05:54:32 | INFO | step=5730 loss=2.0122 lr=1.51e-06 time=1218.2s
+2026-01-04 05:54:34 | INFO | step=5740 loss=1.2555 lr=1.40e-06 time=1219.8s
+2026-01-04 05:54:35 | INFO | step=5750 loss=1.7848 lr=1.29e-06 time=1221.3s
+2026-01-04 05:54:35 | INFO | === Generation sample ===
+2026-01-04 05:54:38 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:54:38 | INFO | === End sample ===
+2026-01-04 05:54:39 | INFO | step=5760 loss=2.0735 lr=1.19e-06 time=1225.3s
+2026-01-04 05:54:41 | INFO | step=5770 loss=2.1717 lr=1.09e-06 time=1226.8s
+2026-01-04 05:54:42 | INFO | step=5780 loss=2.0219 lr=1.00e-06 time=1228.4s
+2026-01-04 05:54:44 | INFO | step=5790 loss=2.1027 lr=9.12e-07 time=1229.9s
+2026-01-04 05:54:45 | INFO | step=5800 loss=1.9369 lr=8.27e-07 time=1231.4s
+2026-01-04 05:54:45 | INFO | === Generation sample ===
+2026-01-04 05:54:48 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:54:48 | INFO | === End sample ===
+2026-01-04 05:54:49 | INFO | step=5810 loss=1.3761 lr=7.47e-07 time=1235.4s
+2026-01-04 05:54:51 | INFO | step=5820 loss=1.3092 lr=6.70e-07 time=1237.0s
+2026-01-04 05:54:52 | INFO | step=5830 loss=1.3493 lr=5.98e-07 time=1238.5s
+2026-01-04 05:54:54 | INFO | step=5840 loss=1.3738 lr=5.30e-07 time=1240.0s
+2026-01-04 05:54:55 | INFO | step=5850 loss=1.3860 lr=4.65e-07 time=1241.5s
+2026-01-04 05:54:55 | INFO | === Generation sample ===
+2026-01-04 05:54:58 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:54:58 | INFO | === End sample ===
+2026-01-04 05:54:59 | INFO | step=5860 loss=1.3670 lr=4.06e-07 time=1245.5s
+2026-01-04 05:55:01 | INFO | step=5870 loss=1.4019 lr=3.50e-07 time=1247.1s
+2026-01-04 05:55:03 | INFO | step=5880 loss=1.9899 lr=2.98e-07 time=1248.6s
+2026-01-04 05:55:04 | INFO | step=5890 loss=1.9030 lr=2.50e-07 time=1250.1s
+2026-01-04 05:55:06 | INFO | step=5900 loss=1.9156 lr=2.07e-07 time=1251.7s
+2026-01-04 05:55:06 | INFO | === Generation sample ===
+2026-01-04 05:55:08 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:55:08 | INFO | === End sample ===
+2026-01-04 05:55:10 | INFO | step=5910 loss=1.9181 lr=1.68e-07 time=1255.7s
+2026-01-04 05:55:11 | INFO | step=5920 loss=1.9845 lr=1.32e-07 time=1257.2s
+2026-01-04 05:55:13 | INFO | step=5930 loss=1.9900 lr=1.01e-07 time=1258.7s
+2026-01-04 05:55:14 | INFO | step=5940 loss=1.4080 lr=7.45e-08 time=1260.3s
+2026-01-04 05:55:16 | INFO | step=5950 loss=1.5178 lr=5.17e-08 time=1261.8s
+2026-01-04 05:55:16 | INFO | === Generation sample ===
+2026-01-04 05:55:18 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:55:18 | INFO | === End sample ===
+2026-01-04 05:55:20 | INFO | step=5960 loss=1.2164 lr=3.31e-08 time=1265.7s
+2026-01-04 05:55:21 | INFO | step=5970 loss=1.4889 lr=1.86e-08 time=1267.3s
+2026-01-04 05:55:23 | INFO | step=5980 loss=1.6561 lr=8.28e-09 time=1268.8s
+2026-01-04 05:55:24 | INFO | step=5990 loss=1.3227 lr=2.07e-09 time=1270.3s
+2026-01-04 05:55:26 | INFO | step=6000 loss=1.3648 lr=0.00e+00 time=1271.9s
+2026-01-04 05:55:26 | INFO | === Generation sample ===
+2026-01-04 05:55:28 | INFO | Summary: A girl and her dog went on an adventure. The girl found a big, shiny rock and her dog helped her find it. They found a big, shiny rock and the girl was very happy.Story: Once upon a time, there was a girl and her dog. The girl was very happy and the dog was very excited. They were going on an adventure.The girl and her dog went on a big, long adventure. They went
+2026-01-04 05:55:28 | INFO | === End sample ===
+2026-01-04 05:55:30 | INFO | Saved latest checkpoint at step 6000
