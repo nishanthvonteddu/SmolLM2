@@ -19,7 +19,6 @@ from safetensors.torch import load_file
 # ------------------------------------------------
 def setup_logging():
     os.makedirs("logs", exist_ok=True)
-
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s | %(levelname)s | %(message)s",
@@ -70,7 +69,6 @@ def load_pretrained(model, model_dir):
 @torch.no_grad()
 def generate_sample(model, tokenizer, device, prompt, max_new_tokens=80):
     model.eval()
-
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
     output_ids = model.generate(
         **inputs,
@@ -80,7 +78,6 @@ def generate_sample(model, tokenizer, device, prompt, max_new_tokens=80):
         top_p=1.0,
         pad_token_id=tokenizer.eos_token_id,
     )
-
     text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
     model.train()
     return text
@@ -91,7 +88,6 @@ def generate_sample(model, tokenizer, device, prompt, max_new_tokens=80):
 # ------------------------------------------------
 def main():
     setup_logging()
-
     device = torch.device("cuda")
 
     # -------------------------
@@ -103,6 +99,7 @@ def main():
     max_steps = 6000
     log_interval = 10
     gen_interval = 50
+    ckpt_interval = 500
     warmup_steps = 20
     base_lr = 3e-4
 
@@ -228,14 +225,26 @@ def main():
             logging.info(text)
             logging.info("=== End sample ===")
 
-        save_checkpoint(
-            latest_ckpt, model, optimizer, scheduler, step, best_loss
-        )
+        if step % ckpt_interval == 0:
+            save_checkpoint(
+                latest_ckpt,
+                model,
+                optimizer,
+                scheduler,
+                step,
+                best_loss,
+            )
+            logging.info(f"Saved latest checkpoint at step {step}")
 
         if loss_val < best_loss:
             best_loss = loss_val
             save_checkpoint(
-                best_ckpt, model, optimizer, scheduler, step, best_loss
+                best_ckpt,
+                model,
+                optimizer,
+                scheduler,
+                step,
+                best_loss,
             )
             logging.info(
                 f"New best model saved (loss={best_loss:.4f})"
