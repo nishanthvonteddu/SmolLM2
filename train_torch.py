@@ -69,19 +69,21 @@ def load_pretrained(model, model_dir):
 @torch.no_grad()
 def generate_sample(model, tokenizer, device, prompt, max_new_tokens=80):
     model.eval()
-    inputs = tokenizer(prompt, return_tensors="pt").to(device)
-    output_ids = model.generate(
-        **inputs,
-        max_new_tokens=max_new_tokens,
-        do_sample=False,
-        temperature=1.0,
-        top_p=1.0,
-        pad_token_id=tokenizer.eos_token_id,
-    )
-    text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+
+    input_ids = tokenizer(prompt, return_tensors="pt")["input_ids"].to(device)
+
+    for _ in range(max_new_tokens):
+        logits = model(input_ids)
+        next_token_logits = logits[:, -1, :]
+        next_token = torch.argmax(next_token_logits, dim=-1, keepdim=True)
+        input_ids = torch.cat([input_ids, next_token], dim=1)
+
+        if next_token.item() == tokenizer.eos_token_id:
+            break
+
+    text = tokenizer.decode(input_ids[0], skip_special_tokens=True)
     model.train()
     return text
-
 
 # ------------------------------------------------
 # Main
